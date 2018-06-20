@@ -61,17 +61,27 @@ else{                                               //Если коллекци�
 }
 };
 
-//TODO: метод Collection.from() ; Метод removeAt ;
+// метод removeAt
+Collection.prototype.removeAt = function(num){
+    let arr = this.values();
+    let index = num-1;
+    arr.splice(index,1);
+    this.container = new Set(arr);
+};
+
+
+//TODO: метод Collection.from() ;
 
 /**
  * Создание коллекции из массива значений
  */
 Collection.from = function (input) {
-    Object.create(Collection);
+   Object.create(Collection.prototype);
+
 };
 
 //Debugging in the most disgusting way but I still love it
-let test = new Collection(['a','b','c']);
+let test = Collection.from(['a','b','c']);
 console.log('Метод count():');
 console.log(test.count());
 console.log('Метод values():');
@@ -86,6 +96,12 @@ console.log('Метод append() с массивом [\'1\',\'7\',\'5\']:');
 test.append(['1','7','5']);
 console.log(test.values());
 console.log('Метод append() с другой коллекцией: [\'e\',\'f\',\'g\']');
-let test2 = new Collection(['e','f','g']);
+let test2 = Collection.from(['e','f','g']);
 test.append(test2);
+console.log(test.values());
+console.log('Метод removeAt(1):');
+test.removeAt(1);
+console.log(test.values());
+console.log('Метод removeAt(3):');
+test.removeAt(3);
 console.log(test.values());
