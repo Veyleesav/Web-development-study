@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Бабуленькины котятки</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<main>
+    <article class="wrapper">
+        <h1>Бабуленькины котятки</h1>
+        <div class="content">
+            <input type="checkbox" name="abyss" id="abyss" class="hide-check">
+            <input type="checkbox" name="brit" id="brit" class="hide-check">
+            <input type="checkbox" name="russian" id="russian" class="hide-check">
+            <input type="checkbox" name="siam" id="siam" class="hide-check">
+            <div class="left">
+                <div class="left__menu">
+                    <label for="abyss" class="left__menu-item menu-abyss">Абиссинская
+                    </label>
+
+                    <label for="brit" class="left__menu-item menu-brit">
+                        Британская
+                    </label>
+                    <label for="russian" class="left__menu-item menu-russian">Русская голубая
+                    </label>
+                    <label for="siam" class="left__menu-item menu-siam">
+                        Сиамская
+                    </label>
+                </div>
+            </div>
+            <section class="center">
+                <div class="item abyss" data-cat-info="Сурен, 3 года">
+                    <img src="img/abyss-1.jpg">
+                </div>
+                <div class="item brit" data-cat-info="Гриша, 1 год">
+                    <img src="img/brit-1.jpg">
+                </div>
+                <div class="item abyss" data-cat-info="Гошаня, 4 года">
+                    <img src="img/abyss-2.jpg">
+                </div>
+                <div class="item brit" data-cat-info="Кузя, 2 года">
+                    <img src="img/brit-2.jpg">
+                </div>
+                <div class="item russian" data-cat-info="Васяня, 3 года">
+                    <img src="img/russian-1.jpg">
+                </div>
+                <div class="item russian" data-cat-info="Мурзик, 2 года">
+                    <img src="img/russian-2.jpg">
+                </div>
+                <div class="item siam" data-cat-info="Максик, 1 год">
+                    <img src="img/siam-1.jpg">
+                </div>
+                <div class="item siam" data-cat-info="Мурка, 0.5 года">
+                    <img src="img/siam-2.jpg">
+                </div>
+            </section>
+            <aside class="ratings aside-column">
+                <h2 class="ratings__title">Рейтинг</h2>
+                <input class="ratings__control" id="select-sort-ratings" type="checkbox">
+                <label for="select-sort-ratings" class="ratings__control-label">по убыванию</label>
+                <div class="ratings__list">
+                    <div class="ratings__item" data-value="9">
+                        <h5 class="rating__name">Абиссинская</h5>
+                        <div class="rating" data-value="9"></div>
+                    </div>
+                    <div class="ratings__item" data-value="8">
+                        <h5 class="rating__name">Британская</h5>
+                        <div class="rating" data-value="8"></div>
+                    </div>
+                    <div class="ratings__item" data-value="10">
+                        <h5 class="rating__name">Русская голубая</h5>
+                        <div class="rating" data-value="10"></div>
+                    </div>
+                    <div class="ratings__item" data-value="4">
+                        <h5 class="rating__name">Сиамская</h5>
+                        <div class="rating" data-value="4"></div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </article>
+</main>
+<footer class="footer">
+    <span class="footer__name">&copy; ООО Бабуленькины котятки, 2015</span>
+    <address class="footer__address">Наш адресс: улица Котиковая, д.5</address>
+</footer>
+</body>
+</html>
