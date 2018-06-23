@@ -18,7 +18,7 @@ Collection.prototype.values = function (values) {
 
     }
 
-    return(arr);
+    return arr;
 };
 // другие методы
 
@@ -76,8 +76,14 @@ else {
 Collection.prototype.removeAt = function(num){
     let arr = this.values();
     let index = num-1;
-    arr.splice(index,1);
-    this.container = new Set(arr);
+    if (typeof arr[index] !== 'undefined') {
+        arr.splice(index, 1);
+        this.container = new Set(arr);
+        return true;
+    }
+    else{
+        return false;
+    }
 };
 
 
@@ -120,3 +126,39 @@ console.log(test.values());
 console.log('Метод removeAt(3):');
 test.removeAt(3);
 console.log(test.values());
+console.log('---------------------------------------');
+console.log('Тесты от checks.js:');
+
+let numbers = new Collection();
+console.log('Объявляем numbers как new Collection(), затем запускаем numbers.append(10) и numbers.append(20):');
+numbers.append(10);
+numbers.append(20);
+console.log(numbers.count());
+console.log(numbers.values());
+
+console.log('Создаём коллекцию букв a,b,c и делаем туда .append буквы d');
+let letters = Collection.from(['a', 'b', 'c']);
+letters.append('d');
+console.log(letters.count());
+console.log(letters.values());
+
+console.log('Смешиваем обе коллекции');
+let items = new Collection();
+items.append(numbers);
+items.append(letters);
+console.log(items.count());
+console.log(items.values());
+
+console.log('Проверяем получение элемента');
+
+console.log(items.at(0));
+console.log(items.at(1));
+console.log(items.at(3));
+console.log(items.at(6));
+
+console.log('Проверяем удаление');
+console.log(items.removeAt(0));
+console.log(items.removeAt(2));
+console.log(items.removeAt(5));
+
+console.log(items.values());
