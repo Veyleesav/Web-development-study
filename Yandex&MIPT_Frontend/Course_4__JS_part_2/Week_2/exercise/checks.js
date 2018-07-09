@@ -1,81 +1,41 @@
 var assert = require('assert');
-var parallel = require('./index');
 
-// Пример успешного выполнения операции
-parallel(
-    [
-        // Операция, которая выполняется 500ms
-        function (next) {
-            setTimeout(function () {
-                next(null, '500ms');
-            }, 500);
-        },
+var Collection = require('./index');
 
-        // Операция, которая выполняется 50ms
-        function (next) {
-            setTimeout(function () {
-                next(null, '50ms');
-            }, 50);
-        },
+// Создаем коллекцию чисел
+var numbers = new Collection();
+numbers.append(10);
+numbers.append(20);
 
-        // Операция, которая выполняется 200ms
-        function (next) {
-            setTimeout(function () {
-                next(null, '200ms');
-            }, 200);
-        }
-    ],
+assert.equal(numbers.count(), 2);
+assert.deepEqual(numbers.values(), [10, 20]);
 
-    // Обработка результата выполнения операций (результирующий callback)
-    function (errors, result) {
-        assert.deepEqual(errors, null);
-        assert.deepEqual(result, ['500ms', '50ms', '200ms']);
+// Создаем коллекцию букв
+var letters = Collection.from(['a', 'b', 'c']);
+letters.append('d');
 
-        completeTest();
-    }
-);
+assert.equal(letters.count(), 4);
+assert.deepEqual(letters.values(), ['a', 'b', 'c', 'd']);
 
-// Пример, когда одна из операций завершается ошибкой
-parallel(
-    [
-        // Операция, которая выполняется 500ms
-        function (next) {
-            setTimeout(function () {
-                next(null, '500ms');
-            }, 500);
-        },
+// Смешиваем обе коллекции
+var items = new Collection();
+items.append(numbers);
+items.append(letters);
 
-        // Операция, которая завершается с ошибкой через 10ms
-        function (next) {
-            setTimeout(function () {
-                next('ERROR');
-            }, 10);
-        },
+assert.equal(items.count(), 6);
+assert.deepEqual(items.values(), [10, 20, 'a', 'b', 'c', 'd']);
 
-        // Операция, которая выполняется 200ms
-        function (next) {
-            setTimeout(function () {
-                next(null, '200ms');
-            }, 200);
-        }
-    ],
-    function (error, results) {
-        assert.deepEqual(error, 'ERROR');
-        assert.equal(results, null);
+// Проверяем получение элемента
+assert.equal(items.at(0), null);
+assert.equal(items.at(1), 10);
+assert.equal(items.at(3), 'a');
+assert.equal(items.at(6), 'd');
 
-        completeTest();
-    }
-);
+// Проверяем удаление
+assert.equal(items.removeAt(0), false);
+assert.equal(items.removeAt(2), true);
+assert.equal(items.removeAt(5), true);
 
-// Вспомогательная функция для тестов
-var tests = 2;
-function completeTest() {
-    tests--;
-    if (tests === 0) {
-        console.info('OK!');
-    }
+assert.deepEqual(items.values(), [10, 'a', 'b', 'c']);
 
-    if (tests < 0) {
-        throw new Error('Одна из результирующих callback-функций вызывается больше одного раза');
-    }
-}
+console.info('OK!');
