@@ -33,7 +33,7 @@ function validateForm(attrs) {
                     value === '';
             }
         }
-
+            //checking if the field is required (*)
         if ('required' in input.dataset && value === '') {
             isValid = false;
         }
@@ -41,7 +41,7 @@ function validateForm(attrs) {
         if (!('required' in input.dataset) && value === '') {
             isValid = true;
         }
-
+// switching error class ON or OFF depending on validness
         if (isValid) {
             input.classList.remove(inputErrorClass);
         } else {
