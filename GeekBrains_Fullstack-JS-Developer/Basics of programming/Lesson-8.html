@@ -1,0 +1,22 @@
+<meta charset="utf-8">
+<script>
+    var firstAngle= randomInteger(0,180);  //задаём рандомный угол (реализация в функции ниже
+    var secondAngle = firstAngle+20; //создаём диапазон в 20 градусов для попадания (если захотим делать цели разных размеров - используем randomInteger(firstAngle,180)
+    var thirdAngle = randomInteger(0,180);
+    var fourthAngle = thirdAngle+20;
+    var angle = parseInt(prompt('Введите угол. Помните, у Вас только одна попытка! Требуется поразить одну из двух целей.'));
+    if (angle>=firstAngle && angle<=secondAngle){
+        alert('Зафиксировано попадание в цель, находившуюся в диапазоне между '+firstAngle+' градусами и '+secondAngle+' !')
+    }
+    else if (angle>=thirdAngle && angle<=fourthAngle){
+        alert('Зафиксировано попадание в цель находившуюся в диапазоне между '+thirdAngle+' градусами и '+fourthAngle+' !')
+    }
+    else {
+        alert('Мимо! Цели находились между '+firstAngle+' градусами и '+secondAngle+' градусами, а так же между '+ thirdAngle+' градусами и '+fourthAngle+' градусами!')
+    }
+    function randomInteger(min, max) {  //реализация функции создания случайного целого числа в определенном диапазоне значений
+        var rand = min - 0.5 + Math.random() * (max - min + 1);
+        rand = Math.round(rand);
+        return rand;
+    }
+</script>
