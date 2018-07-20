@@ -1,0 +1,19 @@
+<meta charset="utf-8">
+<script>
+    var rounds = 0;
+    if (prompt('Cыграем в русскую рулетку?').toLowerCase() =='да')
+        do {
+            if ((Math.random() * 6) < 1) {
+                alert ('БАХ! Вот Вы и умерли.');
+                break;
+
+            }
+
+            rounds++;
+        } while (prompt('Вам сегодня везёт! Ещё раз?')=='да');
+
+    else{
+        alert('Пока!');
+    }
+    alert('Раундов сыграно:' + rounds);
+</script>
