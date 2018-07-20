@@ -1,0 +1,23 @@
+<meta charset="utf-8">
+<script>
+   var corrAnswers = 0;
+   var first =  (prompt('Мордочка усатая, шубка полосатая,\n' +
+       'Часто умывается, но с водой не знается.')).toLowerCase();
+
+   if (first == 'кошка') {
+       alert('Правильный ответ!');
+       corrAnswers++;
+
+   } else {
+       alert('А вот и нет! Это кошка!');
+   }
+   var second =  (prompt('Под полом таится, кошки боится.')).toLowerCase();
+   if (second == 'мышь' || second == 'мышка') {
+       alert('Правильный ответ!');
+       corrAnswers++;
+
+   } else {
+       alert('А вот и нет! Это мышка!');
+   }
+   alert('Количество правильных ответов: '+corrAnswers);
+</script>
