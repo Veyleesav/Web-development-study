@@ -1,0 +1,11 @@
+<meta charset="utf-8">
+<script>
+  var deposit = parseInt(prompt("Размер вклада, руб.:"));
+  var interestRate = parseInt(prompt("Процентная ставка, %:"))/100;
+  var term = parseInt(prompt("Срок вклада, лет:"));
+    for (i=0; i<term;i++){
+      var years = i+1;
+      deposit=(deposit+deposit*interestRate);
+      alert("Прошло лет: "+years+", сумма на счету: "+Math.round(deposit));
+    }
+</script>
