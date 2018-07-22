@@ -1,0 +1,49 @@
+<meta charset="utf-8">
+<script>
+    function getRandomInt(min,max) {
+        return Math.floor(Math.random()*(max-min+1))+min;
+    }
+    function getCard() {
+        var cards = ['6','7','8','9','J','Q','K','A'];
+        return cards[getRandomInt(0,cards.length-1)];
+    }
+    function getSum(arr){  //Подсчет очков в руках
+        var sum=0;
+    if (arr.length>0){
+        for (var i=0;i<arr.length;i++){
+            if (!isNaN(arr[i])){               //Проверяем, является ли карта "цифрой"
+                sum=sum+parseInt(arr[i]);  //Так как в массиве всё хранится как строки, преобразуем строку в число методом parseInt()
+            }
+            else {                           //Обработка события, когда карта не является "цифрой"
+                switch(arr[i]) {
+                    case 'J':
+                        sum=sum+2;
+                        break;
+                    case 'Q':
+                        sum=sum+3;
+                        break;
+                    case 'K':
+                        sum=sum+4;
+                        break;
+                    case 'A':
+                        sum=sum+11; //Ведь не очко обычно губит, а к одиннадцати туз!
+                        break;
+                    default:
+                        sum=sum;
+                }
+            }
+
+        }
+    }
+    else {
+        return 0;
+    }
+    return sum;
+    }
+    var dealer = [getCard()]; //Выбирает случайную карту и кладёт в массив к дилеру
+    var player = [getCard(),getCard()]; //Выбирает 2 случайных карты и кладёт в массив к игроку
+
+    alert('Дилер: '+dealer.join(' ')+' Игрок: '+player.join(' '));
+    alert('Текущая сумма очков у игрока: '+getSum(player));
+
+</script>
