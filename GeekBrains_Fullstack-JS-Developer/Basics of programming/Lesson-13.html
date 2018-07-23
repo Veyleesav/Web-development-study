@@ -1,0 +1,56 @@
+<meta charset="utf-8">
+<script>
+    function getRandomInt(min,max) {
+        return Math.floor(Math.random()*(max-min+1))+min;
+    }
+    function getCard() {
+        var cards = ['6','7','8','9','J','Q','K','A'];
+        return cards[getRandomInt(0,cards.length-1)];
+    }
+    function getSum(arr){  //Подсчет очков в руках. У лектора иное представление о блек джеке, поэтому меняю функцию с прошлого варианта на более корректный для данного ТЗ
+            var sum = 0;
+            //считаем карты кроме тузов
+        for (var i = 0;i<arr.length;i++){
+            var card = arr[i];
+            if (card !== 'A'){
+                if (isNaN(card)){
+                    sum=sum+10;
+                }
+                else{
+                    sum+=parseInt(card);
+                }
+            }
+        }
+        //считаем туз как 1, если текущая сумма больше 10, иначе - считаем туз как 11
+        for (var j =0; j<arr.length; j++){
+            var card=arr[j];
+            if (card == 'A'){
+                if (sum>10){
+                    sum+=1;
+                }
+                else{
+                    sum=sum+11;
+                }
+            }
+        }
+        return sum;
+    }
+    
+    function getStatus() {
+        return 'Дилер: '+dealer.join(' ')+' Игрок: '+player.join(' ')+'.';
+    }
+    var dealer = [getCard()]; //Выбирает случайную карту и кладёт в массив к дилеру
+    var player = [getCard(),getCard()]; //Выбирает 2 случайных карты и кладёт в массив к игроку
+    var answer= '';
+
+    do {
+        answer=prompt(getStatus()+' Хотите ещё карту? 1- да, любой другой символ - нет');
+
+        if (answer=='1'){
+            player.push(getCard());
+        }
+        alert(getStatus());
+    }while (answer=='1');
+
+
+</script>
