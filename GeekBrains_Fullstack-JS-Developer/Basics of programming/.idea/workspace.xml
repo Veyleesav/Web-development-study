@@ -17,8 +17,8 @@
       <file leaf-file-name="Lesson-13.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Lesson-13.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="39" column="74" lean-forward="true" selection-end-line="55" selection-end-column="9" />
+            <state relative-caret-position="663">
+              <caret line="39" column="74" selection-end-line="55" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -26,8 +26,8 @@
       <file leaf-file-name="Lesson-14.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Lesson-14.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1197">
-              <caret line="89" column="9" lean-forward="true" selection-start-line="89" selection-start-column="9" selection-end-line="89" selection-end-column="9" />
+            <state relative-caret-position="769">
+              <caret line="89" column="9" selection-start-line="89" selection-start-column="9" selection-end-line="89" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -60,8 +60,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="714" />
-    <option name="y" value="85" />
+    <option name="x" value="571" />
+    <option name="y" value="97" />
     <option name="width" value="1218" />
     <option name="height" value="966" />
   </component>
@@ -123,14 +123,15 @@
       <workItem from="1532244644863" duration="1889000" />
       <workItem from="1532291335261" duration="1232000" />
       <workItem from="1532337405633" duration="1606000" />
+      <workItem from="1536761951313" duration="41000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7960000" />
+    <option name="totallyTimeSpent" value="8001000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="714" y="85" width="1218" height="966" extended-state="0" />
+    <frame x="571" y="97" width="1218" height="966" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21630615" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -158,6 +159,20 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Lesson-13.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="74" lean-forward="true" selection-end-line="55" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson-14.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1513">
+          <caret line="89" column="9" lean-forward="true" selection-start-line="89" selection-start-column="9" selection-end-line="89" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Lesson-13.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="816">
@@ -265,15 +280,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Lesson-13.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="39" column="74" lean-forward="true" selection-end-line="55" selection-end-column="9" />
+        <state relative-caret-position="663">
+          <caret line="39" column="74" selection-end-line="55" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lesson-14.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1197">
-          <caret line="89" column="9" lean-forward="true" selection-start-line="89" selection-start-column="9" selection-end-line="89" selection-end-column="9" />
+        <state relative-caret-position="769">
+          <caret line="89" column="9" selection-start-line="89" selection-start-column="9" selection-end-line="89" selection-end-column="9" />
         </state>
       </provider>
     </entry>
