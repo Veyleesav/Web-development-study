@@ -15,50 +15,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lesson-2/index.html">
+        <entry file="file://$PROJECT_DIR$/Lesson-2-HW/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+            <state relative-caret-position="340">
+              <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
               <folding>
-                <element signature="e#168#174#0" expanded="true" />
-                <element signature="e#230#236#0" expanded="true" />
+                <element signature="e#638#644#1" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contacts.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lesson-2/contacts.html">
+      <file leaf-file-name="reg.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lesson-2/reg.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="7" lean-forward="true" selection-end-line="11" selection-end-column="7" />
+            <state relative-caret-position="238">
+              <caret line="14" selection-start-line="14" selection-end-line="25" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Lesson-2/catalog/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
-              <folding>
-                <element signature="e#206#212#0" expanded="true" />
-                <element signature="e#265#271#0" expanded="true" />
-                <element signature="e#371#377#0" expanded="true" />
-                <element signature="e#567#573#0" expanded="true" />
-                <element signature="e#643#649#0" expanded="true" />
-                <element signature="e#723#729#0" expanded="true" />
-                <element signature="e#730#736#0" expanded="true" />
-                <element signature="e#738#744#0" expanded="true" />
-                <element signature="e#768#774#0" expanded="true" />
-                <element signature="e#798#804#0" expanded="true" />
-                <element signature="e#895#901#0" expanded="true" />
-                <element signature="e#985#991#0" expanded="true" />
-                <element signature="e#992#998#0" expanded="true" />
-                <element signature="e#1069#1075#0" expanded="true" />
-                <element signature="e#1095#1101#0" expanded="true" />
-                <element signature="e#1187#1193#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="119">
+              <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -66,52 +47,83 @@
       <file leaf-file-name="second.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Lesson-2/catalog/second.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="7" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+            <state relative-caret-position="170">
+              <caret line="10" column="59" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
               <folding>
                 <element signature="e#126#132#0" expanded="true" />
-                <element signature="e#213#219#0" expanded="true" />
-                <element signature="e#272#278#0" expanded="true" />
-                <element signature="e#378#384#0" expanded="true" />
-                <element signature="e#575#581#0" expanded="true" />
-                <element signature="e#651#657#0" expanded="true" />
-                <element signature="e#731#737#0" expanded="true" />
-                <element signature="e#738#744#0" expanded="true" />
                 <element signature="e#746#752#0" expanded="true" />
-                <element signature="e#776#782#0" expanded="true" />
-                <element signature="e#806#812#0" expanded="true" />
-                <element signature="e#942#948#0" expanded="true" />
-                <element signature="e#960#966#0" expanded="true" />
-                <element signature="e#1005#1011#0" expanded="true" />
-                <element signature="e#1012#1018#0" expanded="true" />
                 <element signature="e#1107#1113#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="third.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lesson-2/catalog/third.html">
+      <file leaf-file-name="catalogue.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lesson-2-HW/catalogue.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="7" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+            <state relative-caret-position="459">
+              <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
               <folding>
-                <element signature="e#203#209#0" expanded="true" />
-                <element signature="e#262#268#0" expanded="true" />
-                <element signature="e#368#374#0" expanded="true" />
-                <element signature="e#477#483#0" expanded="true" />
-                <element signature="e#611#617#0" expanded="true" />
-                <element signature="e#687#693#0" expanded="true" />
-                <element signature="e#767#773#0" expanded="true" />
-                <element signature="e#774#780#0" expanded="true" />
-                <element signature="e#782#788#0" expanded="true" />
-                <element signature="e#812#818#0" expanded="true" />
-                <element signature="e#842#848#0" expanded="true" />
-                <element signature="e#1031#1037#0" expanded="true" />
-                <element signature="e#1038#1044#0" expanded="true" />
-                <element signature="e#1133#1139#0" expanded="true" />
-                <element signature="e#1175#1181#0" expanded="true" />
-                <element signature="e#1159#1165#0" expanded="true" />
+                <element signature="e#724#730#0" expanded="true" />
+                <element signature="e#933#939#0" expanded="true" />
+                <element signature="e#939#945#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contacts.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lesson-2-HW/contacts.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="629">
+              <caret line="37" column="7" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
+              <folding>
+                <element signature="n#style#0;n#b#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#b#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#1116#1122#0" expanded="true" />
+                <element signature="e#1128#1134#0" expanded="true" />
+                <element signature="e#1180#1186#0" expanded="true" />
+                <element signature="e#1192#1198#0" expanded="true" />
+                <element signature="e#1518#1524#0" expanded="true" />
+                <element signature="e#1760#1766#0" expanded="true" />
+                <element signature="e#1766#1772#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Lesson-2-HW/catalogue/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="629">
+              <caret line="37" column="42" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
+              <folding>
+                <element signature="e#1481#1487#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="second.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lesson-2-HW/catalogue/second.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="36" column="42" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
+              <folding>
+                <element signature="e#126#132#0" expanded="true" />
+                <element signature="e#1457#1463#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="third.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lesson-2-HW/catalogue/third.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="36" column="42" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
+              <folding>
+                <element signature="e#1484#1490#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -130,10 +142,17 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Lesson-2/contacts.html" />
-        <option value="$PROJECT_DIR$/Lesson-2/catalog/second.html" />
-        <option value="$PROJECT_DIR$/Lesson-2/catalog/third.html" />
         <option value="$PROJECT_DIR$/Lesson-2/index.html" />
+        <option value="$PROJECT_DIR$/Lesson-2/catalog/third.html" />
+        <option value="$PROJECT_DIR$/Lesson-2/catalog/second.html" />
         <option value="$PROJECT_DIR$/Lesson-2/catalog/index.html" />
+        <option value="$PROJECT_DIR$/Lesson-2-HW/contatcs.html" />
+        <option value="$PROJECT_DIR$/Lesson-2-HW/catalogue/third.html" />
+        <option value="$PROJECT_DIR$/Lesson-2-HW/catalogue/second.html" />
+        <option value="$PROJECT_DIR$/Lesson-2-HW/catalogue/index.html" />
+        <option value="$PROJECT_DIR$/Lesson-2-HW/catalogue.html" />
+        <option value="$PROJECT_DIR$/Lesson-2-HW/contacts.html" />
+        <option value="$PROJECT_DIR$/Lesson-2-HW/index.html" />
       </list>
     </option>
   </component>
@@ -144,8 +163,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="290" />
-    <option name="y" value="276" />
+    <option name="x" value="229" />
+    <option name="y" value="50" />
     <option name="width" value="1396" />
     <option name="height" value="1151" />
   </component>
@@ -169,8 +188,13 @@
             <path>
               <item name="Interactive-HTML-CSS" type="b2602c69:ProjectViewProjectNode" />
               <item name="Interactive-HTML-CSS" type="462c0819:PsiDirectoryNode" />
-              <item name="Lesson-2" type="462c0819:PsiDirectoryNode" />
-              <item name="catalog" type="462c0819:PsiDirectoryNode" />
+              <item name="Lesson-2-HW" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Interactive-HTML-CSS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Interactive-HTML-CSS" type="462c0819:PsiDirectoryNode" />
+              <item name="Lesson-2-HW" type="462c0819:PsiDirectoryNode" />
+              <item name="catalogue" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -211,16 +235,15 @@
       <option name="presentableId" value="Default" />
       <updated>1536778416099</updated>
       <workItem from="1536778418141" duration="657000" />
-      <workItem from="1536914595658" duration="951000" />
+      <workItem from="1536914595658" duration="5814000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1608000" />
+    <option name="totallyTimeSpent" value="6471000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="290" y="276" width="1396" height="1151" extended-state="0" />
-    <editor active="true" />
+    <frame x="229" y="50" width="1396" height="1151" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3478261" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -252,14 +275,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="58" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
-          <folding>
-            <element signature="e#168#174#0" expanded="true" />
-            <element signature="e#230#236#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lesson-2/contacts.html">
+    <entry file="file://$PROJECT_DIR$/Lesson-2/reg.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
@@ -270,24 +289,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="29" column="4" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="66" />
-          <folding>
-            <element signature="e#206#212#0" expanded="true" />
-            <element signature="e#265#271#0" expanded="true" />
-            <element signature="e#371#377#0" expanded="true" />
-            <element signature="e#567#573#0" expanded="true" />
-            <element signature="e#643#649#0" expanded="true" />
-            <element signature="e#723#729#0" expanded="true" />
-            <element signature="e#730#736#0" expanded="true" />
-            <element signature="e#738#744#0" expanded="true" />
-            <element signature="e#768#774#0" expanded="true" />
-            <element signature="e#798#804#0" expanded="true" />
-            <element signature="e#895#901#0" expanded="true" />
-            <element signature="e#985#991#0" expanded="true" />
-            <element signature="e#992#998#0" expanded="true" />
-            <element signature="e#1069#1075#0" expanded="true" />
-            <element signature="e#1095#1101#0" expanded="true" />
-            <element signature="e#1187#1193#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -297,20 +298,7 @@
           <caret line="29" column="62" selection-start-line="29" selection-start-column="62" selection-end-line="29" selection-end-column="62" />
           <folding>
             <element signature="e#126#132#0" expanded="true" />
-            <element signature="e#213#219#0" expanded="true" />
-            <element signature="e#272#278#0" expanded="true" />
-            <element signature="e#378#384#0" expanded="true" />
-            <element signature="e#575#581#0" expanded="true" />
-            <element signature="e#651#657#0" expanded="true" />
-            <element signature="e#731#737#0" expanded="true" />
-            <element signature="e#738#744#0" expanded="true" />
             <element signature="e#746#752#0" expanded="true" />
-            <element signature="e#776#782#0" expanded="true" />
-            <element signature="e#806#812#0" expanded="true" />
-            <element signature="e#942#948#0" expanded="true" />
-            <element signature="e#960#966#0" expanded="true" />
-            <element signature="e#1005#1011#0" expanded="true" />
-            <element signature="e#1012#1018#0" expanded="true" />
             <element signature="e#1107#1113#0" expanded="true" />
           </folding>
         </state>
@@ -321,11 +309,9 @@
         <state relative-caret-position="493">
           <caret line="29" column="62" selection-start-line="29" selection-start-column="62" selection-end-line="29" selection-end-column="62" />
           <folding>
-            <element signature="e#203#209#0" expanded="true" />
-            <element signature="e#262#268#0" expanded="true" />
             <element signature="e#368#374#0" expanded="true" />
             <element signature="e#477#483#0" expanded="true" />
-            <element signature="e#611#617#0" expanded="true" />
+            <element signature="e#702#708#0" expanded="true" />
             <element signature="e#687#693#0" expanded="true" />
             <element signature="e#767#773#0" expanded="true" />
             <element signature="e#774#780#0" expanded="true" />
@@ -338,98 +324,132 @@
             <element signature="e#1175#1181#0" expanded="true" />
             <element signature="e#1159#1165#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lesson-2/catalog/second.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="7" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
-          <folding>
-            <element signature="e#126#132#0" expanded="true" />
-            <element signature="e#213#219#0" expanded="true" />
-            <element signature="e#272#278#0" expanded="true" />
-            <element signature="e#378#384#0" expanded="true" />
-            <element signature="e#575#581#0" expanded="true" />
-            <element signature="e#651#657#0" expanded="true" />
-            <element signature="e#731#737#0" expanded="true" />
-            <element signature="e#738#744#0" expanded="true" />
-            <element signature="e#746#752#0" expanded="true" />
-            <element signature="e#776#782#0" expanded="true" />
-            <element signature="e#806#812#0" expanded="true" />
-            <element signature="e#942#948#0" expanded="true" />
-            <element signature="e#960#966#0" expanded="true" />
-            <element signature="e#1005#1011#0" expanded="true" />
-            <element signature="e#1012#1018#0" expanded="true" />
-            <element signature="e#1107#1113#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lesson-2/catalog/third.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="7" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
-          <folding>
-            <element signature="e#203#209#0" expanded="true" />
-            <element signature="e#262#268#0" expanded="true" />
-            <element signature="e#368#374#0" expanded="true" />
-            <element signature="e#477#483#0" expanded="true" />
-            <element signature="e#611#617#0" expanded="true" />
-            <element signature="e#687#693#0" expanded="true" />
-            <element signature="e#767#773#0" expanded="true" />
-            <element signature="e#774#780#0" expanded="true" />
-            <element signature="e#782#788#0" expanded="true" />
-            <element signature="e#812#818#0" expanded="true" />
-            <element signature="e#842#848#0" expanded="true" />
-            <element signature="e#1031#1037#0" expanded="true" />
-            <element signature="e#1038#1044#0" expanded="true" />
-            <element signature="e#1133#1139#0" expanded="true" />
-            <element signature="e#1175#1181#0" expanded="true" />
-            <element signature="e#1159#1165#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lesson-2/contacts.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="7" lean-forward="true" selection-end-line="11" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lesson-2/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        <state relative-caret-position="153">
+          <caret line="9" column="56" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson-2/catalog/third.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="59" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="59" />
           <folding>
-            <element signature="e#168#174#0" expanded="true" />
-            <element signature="e#230#236#0" expanded="true" />
+            <element signature="e#368#374#0" expanded="true" />
+            <element signature="e#477#483#0" expanded="true" />
+            <element signature="e#702#708#0" expanded="true" />
+            <element signature="e#687#693#0" expanded="true" />
+            <element signature="e#767#773#0" expanded="true" />
+            <element signature="e#774#780#0" expanded="true" />
+            <element signature="e#782#788#0" expanded="true" />
+            <element signature="e#812#818#0" expanded="true" />
+            <element signature="e#842#848#0" expanded="true" />
+            <element signature="e#1031#1037#0" expanded="true" />
+            <element signature="e#1038#1044#0" expanded="true" />
+            <element signature="e#1133#1139#0" expanded="true" />
+            <element signature="e#1175#1181#0" expanded="true" />
+            <element signature="e#1159#1165#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lesson-2/catalog/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
+        <state relative-caret-position="119">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson-2/catalog/second.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="59" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
           <folding>
-            <element signature="e#206#212#0" expanded="true" />
-            <element signature="e#265#271#0" expanded="true" />
-            <element signature="e#371#377#0" expanded="true" />
-            <element signature="e#567#573#0" expanded="true" />
-            <element signature="e#643#649#0" expanded="true" />
-            <element signature="e#723#729#0" expanded="true" />
-            <element signature="e#730#736#0" expanded="true" />
-            <element signature="e#738#744#0" expanded="true" />
-            <element signature="e#768#774#0" expanded="true" />
-            <element signature="e#798#804#0" expanded="true" />
-            <element signature="e#895#901#0" expanded="true" />
-            <element signature="e#985#991#0" expanded="true" />
-            <element signature="e#992#998#0" expanded="true" />
-            <element signature="e#1069#1075#0" expanded="true" />
-            <element signature="e#1095#1101#0" expanded="true" />
-            <element signature="e#1187#1193#0" expanded="true" />
+            <element signature="e#126#132#0" expanded="true" />
+            <element signature="e#746#752#0" expanded="true" />
+            <element signature="e#1107#1113#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson-2/reg.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="25" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson-2-HW/catalogue/third.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="42" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
+          <folding>
+            <element signature="e#1484#1490#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson-2-HW/catalogue.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+          <folding>
+            <element signature="e#724#730#0" expanded="true" />
+            <element signature="e#933#939#0" expanded="true" />
+            <element signature="e#939#945#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson-2-HW/contacts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="7" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#b#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#b#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#1116#1122#0" expanded="true" />
+            <element signature="e#1128#1134#0" expanded="true" />
+            <element signature="e#1180#1186#0" expanded="true" />
+            <element signature="e#1192#1198#0" expanded="true" />
+            <element signature="e#1518#1524#0" expanded="true" />
+            <element signature="e#1760#1766#0" expanded="true" />
+            <element signature="e#1766#1772#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson-2-HW/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+          <folding>
+            <element signature="e#638#644#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson-2-HW/catalogue/second.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="42" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
+          <folding>
+            <element signature="e#126#132#0" expanded="true" />
+            <element signature="e#1457#1463#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson-2-HW/catalogue/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="42" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
+          <folding>
+            <element signature="e#1481#1487#0" expanded="true" />
           </folding>
         </state>
       </provider>
