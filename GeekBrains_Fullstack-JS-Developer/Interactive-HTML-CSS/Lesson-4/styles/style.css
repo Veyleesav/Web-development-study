@@ -1,0 +1,123 @@
+*{
+    background: #f8f8f8;
+}
+.menu{
+    position: relative;
+    left: 300px;
+    top:-110px;
+    background-color: transparent;
+}
+.menu a{
+    text-decoration: none;
+    }
+.menu a:visited {
+    color: #0b214e;
+}
+.menu a:hover {
+    color: #e76702;
+}
+.menu a:active {
+    color: #8f3f00;
+}
+.menu-list{
+    color: #0c214e;
+    font-family: Helvetica-Narrow sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    list-style-type: none;
+    }
+.description{
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background: #eaeaea;
+}
+.description-short{
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+.description-full{
+    color: #484343;
+    font-size:16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+.characteristics-list{
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: Helvetica-Narrow sans-serif;
+    list-style-image: url("../img/circle.png");
+    padding-left:50px;
+}
+
+input[type=text],input[type=tel],input[type=email]{
+    position: relative;
+    left:20px;
+    width: 200px;
+    height:20px;
+    padding:2px;
+    margin:2px;
+    border-radius:5px;
+    color: royalblue;
+    font-size:16px;
+    text-transform: capitalize;
+}
+input[type=tel]{
+    position: relative;
+    left:1px;
+}
+input[type=email]{
+    position: relative;
+    left:9px;
+}
+input[type=email]:focus{
+    position: relative;
+    left:9px;
+    background-color: lightsalmon;
+    color: #58f8ff;
+}
+textarea{
+    border-radius:5px;
+    color: royalblue;
+    font-size:16px;
+    width: 350px;
+    height: 150px;
+    text-transform: capitalize;
+}
+.description-image-link{
+    outline: 10px solid aquamarine;
+    outline-offset: -5px;
+}
+.description-image-link:hover{
+    outline: none;
+}
+.logo{
+    height: 100px;
+}
+.header{
+    height:100px;
+}
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+td{
+    padding: 15px;
+    border: 1px solid black;
+}
+th{
+    height: 150px;
+}
+.goods p:first-letter{
+    text-transform: uppercase;
+    font-family: Calibri Serif;
+    font-weight: 800;
+    font-size:25px;
+
+}

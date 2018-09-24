@@ -1,0 +1,75 @@
+*{
+    background: #f8f8f8;
+}
+.menu a{
+    text-decoration: none;
+    }
+.menu a:visited {
+    color: navy;
+}
+.menu-list{
+    color: navy;
+    font-family: sans-serif;
+    font-size: larger;
+    list-style-type: none;
+    }
+.description{
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background: #eaeaea;
+}
+.description-short{
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+.description-full{
+    color: #484343;
+    font-size:16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+.characteristics-list{
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: Helvetica-Narrow sans-serif;
+    list-style-image: url("../img/circle.png");
+    padding-left:50px;
+}
+input[type=text],input[type=tel],input[type=email]{
+    position: relative;
+    left:20px;
+    width: 200px;
+    height:20px;
+    padding:2px;
+    margin:2px;
+    border-radius:5px;
+    color: royalblue;
+    font-size:16px;
+}
+input[type=tel]{
+    position: relative;
+    left:1px;
+}
+input[type=email]{
+    position: relative;
+    left:9px;
+}
+textarea{
+    border-radius:5px;
+    color: royalblue;
+    font-size:16px;
+    width: 350px;
+    height: 150px;
+}
+.desc-img{
+    outline: 5px solid aquamarine;
+}
+.description-image-link:hover{
+    outline: 10px solid aquamarine;
+}
