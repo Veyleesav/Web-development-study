@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32b51db4-e5c6-4483-8715-aad81476dbcf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Lesson-6-PSD/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson-6-PSD/styles/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson-6-PSD/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson-6-PSD/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson-6-PSD/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson-6-PSD/styles/style.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,8 +21,29 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Lesson-6-PSD/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="46" lean-forward="true" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
+            <state relative-caret-position="629">
+              <caret line="61" column="33" selection-start-line="61" selection-start-column="33" selection-end-line="61" selection-end-column="33" />
+              <folding>
+                <element signature="e#972#978#0" expanded="true" />
+                <element signature="e#1019#1025#0" expanded="true" />
+                <element signature="e#1068#1074#0" expanded="true" />
+                <element signature="e#2142#2148#0" expanded="true" />
+                <element signature="e#2146#2152#0" expanded="true" />
+                <element signature="e#2151#2157#0" expanded="true" />
+                <element signature="e#2156#2162#0" expanded="true" />
+                <element signature="e#2540#2546#0" expanded="true" />
+                <element signature="e#2549#2555#0" expanded="true" />
+                <element signature="e#2559#2565#0" expanded="true" />
+                <element signature="e#2569#2575#0" expanded="true" />
+                <element signature="e#2923#2929#0" expanded="true" />
+                <element signature="e#2932#2938#0" expanded="true" />
+                <element signature="e#2942#2948#0" expanded="true" />
+                <element signature="e#2952#2958#0" expanded="true" />
+                <element signature="e#3307#3313#0" expanded="true" />
+                <element signature="e#3316#3322#0" expanded="true" />
+                <element signature="e#3326#3332#0" expanded="true" />
+                <element signature="e#3336#3342#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -29,8 +51,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Lesson-6-PSD/styles/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="63" selection-start-line="63" selection-end-line="63" />
+            <state relative-caret-position="578">
+              <caret line="227" column="13" selection-start-line="227" selection-start-column="13" selection-end-line="227" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -48,6 +70,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>desc</find>
+      <find>emotion</find>
+      <find>dot</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -102,8 +126,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="532" />
-    <option name="y" value="116" />
+    <option name="x" value="611" />
+    <option name="y" value="113" />
     <option name="width" value="1241" />
     <option name="height" value="959" />
   </component>
@@ -182,16 +206,17 @@
       <workItem from="1537513487238" duration="782000" />
       <workItem from="1537777305862" duration="4342000" />
       <workItem from="1537946964703" duration="3748000" />
+      <workItem from="1537980283126" duration="8195000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26712000" />
+    <option name="totallyTimeSpent" value="34907000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="532" y="116" width="1241" height="959" extended-state="0" />
+    <frame x="611" y="113" width="1241" height="959" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2244898" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2244898" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.16086066" />
@@ -209,25 +234,6 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
-    <layout-to-restore>
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28163266" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.16086066" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -530,13 +536,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/ПИ/Lesson5/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Downloads/ПИ/Lesson5/css/style.css" />
     <entry file="file://$PROJECT_DIR$/Lesson-5/styles/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -572,20 +572,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lesson-6-PSD/img/slider-img.jpg">
+    <entry file="file://$PROJECT_DIR$/Lesson-6-PSD/img/arrow.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Lesson-6-PSD/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="46" lean-forward="true" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
+        <state relative-caret-position="629">
+          <caret line="61" column="33" selection-start-line="61" selection-start-column="33" selection-end-line="61" selection-end-column="33" />
+          <folding>
+            <element signature="e#972#978#0" expanded="true" />
+            <element signature="e#1019#1025#0" expanded="true" />
+            <element signature="e#1068#1074#0" expanded="true" />
+            <element signature="e#2142#2148#0" expanded="true" />
+            <element signature="e#2146#2152#0" expanded="true" />
+            <element signature="e#2151#2157#0" expanded="true" />
+            <element signature="e#2156#2162#0" expanded="true" />
+            <element signature="e#2540#2546#0" expanded="true" />
+            <element signature="e#2549#2555#0" expanded="true" />
+            <element signature="e#2559#2565#0" expanded="true" />
+            <element signature="e#2569#2575#0" expanded="true" />
+            <element signature="e#2923#2929#0" expanded="true" />
+            <element signature="e#2932#2938#0" expanded="true" />
+            <element signature="e#2942#2948#0" expanded="true" />
+            <element signature="e#2952#2958#0" expanded="true" />
+            <element signature="e#3307#3313#0" expanded="true" />
+            <element signature="e#3316#3322#0" expanded="true" />
+            <element signature="e#3326#3332#0" expanded="true" />
+            <element signature="e#3336#3342#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lesson-6-PSD/styles/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        <state relative-caret-position="578">
+          <caret line="227" column="13" selection-start-line="227" selection-start-column="13" selection-end-line="227" selection-end-column="13" />
         </state>
       </provider>
     </entry>
