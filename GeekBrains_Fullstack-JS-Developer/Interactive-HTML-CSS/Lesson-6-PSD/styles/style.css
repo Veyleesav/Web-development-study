@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,700');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0 auto;
+    width: 1366px;
+}
+
+.header{
+    height: 800px;
+    background-image:url("../img/slider-img.jpg");
+}
+.header .navbar .logo{
+    margin-top: 63px;
+    margin-left: 98px;
+}
+.header .navbar .navigation{
+    margin-top:67px;
+    margin-right: 211px;
+    float:right;
+}
+.header .navbar .navigation .navigation-link{
+    list-style-type: none;
+    float:left;
+    padding: 0 20px;
+}
+
+.header .navbar .navigation .navigation-link a{
+    font-family: Montserrat;
+    display:block;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 48px;
+    letter-spacing: 1.4px;
+    color: #8c8c8c;
+    margin: 0px 5px 0px 5px;
+}
+.header .navbar .navigation .navigation-link a:hover{
+    color:#212121;
+    -webkit-text-stroke: 1.5px #212121;  /* The only way i found to trick the text shift and save boldness of the hovered text*/
+   border-bottom: 3px solid #212121;
+}
+.slider-text {
+    font-family: Montserrat;
+    margin-top: 288px;
+    margin-left:98px;
+}
+.slider-text-top{
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.67;
+    letter-spacing: 1.8px;
+    text-align: left;
+    color: #43a047;
+}
+.slider-text-name{
+
+    font-size: 62px;
+    font-weight: 100;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.16;
+    letter-spacing: normal;
+    color: #212121;
+}
+.slider-text-main{
+    width: 458px;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    color: #6c6c6c;
+}
