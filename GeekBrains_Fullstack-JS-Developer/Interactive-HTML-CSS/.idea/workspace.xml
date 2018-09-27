@@ -21,15 +21,9 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Lesson-6-PSD/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="61" column="33" selection-start-line="61" selection-start-column="33" selection-end-line="61" selection-end-column="33" />
+            <state relative-caret-position="575">
+              <caret line="229" column="106" selection-start-line="229" selection-start-column="106" selection-end-line="229" selection-end-column="106" />
               <folding>
-                <element signature="e#972#978#0" expanded="true" />
-                <element signature="e#1019#1025#0" expanded="true" />
-                <element signature="e#1068#1074#0" expanded="true" />
-                <element signature="e#2142#2148#0" expanded="true" />
-                <element signature="e#2146#2152#0" expanded="true" />
-                <element signature="e#2151#2157#0" expanded="true" />
                 <element signature="e#2156#2162#0" expanded="true" />
                 <element signature="e#2540#2546#0" expanded="true" />
                 <element signature="e#2549#2555#0" expanded="true" />
@@ -43,6 +37,48 @@
                 <element signature="e#3316#3322#0" expanded="true" />
                 <element signature="e#3326#3332#0" expanded="true" />
                 <element signature="e#3336#3342#0" expanded="true" />
+                <element signature="e#3724#3730#0" expanded="true" />
+                <element signature="e#3733#3739#0" expanded="true" />
+                <element signature="e#3743#3749#0" expanded="true" />
+                <element signature="e#3753#3759#0" expanded="true" />
+                <element signature="e#3769#3775#0" expanded="true" />
+                <element signature="e#3779#3785#0" expanded="true" />
+                <element signature="e#3782#3788#0" expanded="true" />
+                <element signature="e#3797#3803#0" expanded="true" />
+                <element signature="e#3807#3813#0" expanded="true" />
+                <element signature="e#4218#4224#0" expanded="true" />
+                <element signature="e#4227#4233#0" expanded="true" />
+                <element signature="e#4237#4243#0" expanded="true" />
+                <element signature="e#4247#4253#0" expanded="true" />
+                <element signature="e#4263#4269#0" expanded="true" />
+                <element signature="e#4273#4279#0" expanded="true" />
+                <element signature="e#4281#4287#0" expanded="true" />
+                <element signature="e#4291#4297#0" expanded="true" />
+                <element signature="e#4301#4307#0" expanded="true" />
+                <element signature="e#5651#5657#0" expanded="true" />
+                <element signature="e#5655#5661#0" expanded="true" />
+                <element signature="e#5660#5666#0" expanded="true" />
+                <element signature="e#5666#5672#0" expanded="true" />
+                <element signature="e#5676#5682#0" expanded="true" />
+                <element signature="e#5681#5687#0" expanded="true" />
+                <element signature="e#5694#5700#0" expanded="true" />
+                <element signature="e#5699#5705#0" expanded="true" />
+                <element signature="e#5705#5711#0" expanded="true" />
+                <element signature="e#5712#5718#0" expanded="true" />
+                <element signature="e#6931#6937#0" expanded="true" />
+                <element signature="e#6940#6946#0" expanded="true" />
+                <element signature="e#6950#6956#0" expanded="true" />
+                <element signature="e#6960#6966#0" expanded="true" />
+                <element signature="e#6976#6982#0" expanded="true" />
+                <element signature="e#6986#6992#0" expanded="true" />
+                <element signature="e#6994#7000#0" expanded="true" />
+                <element signature="e#7004#7010#0" expanded="true" />
+                <element signature="e#7014#7020#0" expanded="true" />
+                <element signature="e#10039#10045#0" expanded="true" />
+                <element signature="e#10205#10211#1" expanded="true" />
+                <element signature="e#10262#10268#1" expanded="true" />
+                <element signature="e#10318#10324#1" expanded="true" />
+                <element signature="e#10377#10383#1" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -51,8 +87,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Lesson-6-PSD/styles/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="227" column="13" selection-start-line="227" selection-start-column="13" selection-end-line="227" selection-end-column="13" />
+            <state relative-caret-position="602">
+              <caret line="668" column="19" selection-start-line="668" selection-start-column="19" selection-end-line="668" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -72,6 +108,15 @@
       <find>desc</find>
       <find>emotion</find>
       <find>dot</find>
+      <find>button-</find>
+      <find>explore</find>
+      <find>slider-text</find>
+      <find>wra</find>
+      <find>promo</find>
+      <find>order</find>
+      <find>order-promo</find>
+      <find>copy</find>
+      <find>social</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -126,8 +171,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="611" />
-    <option name="y" value="113" />
+    <option name="x" value="305" />
+    <option name="y" value="84" />
     <option name="width" value="1241" />
     <option name="height" value="959" />
   </component>
@@ -139,7 +184,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -162,6 +206,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -207,14 +252,15 @@
       <workItem from="1537777305862" duration="4342000" />
       <workItem from="1537946964703" duration="3748000" />
       <workItem from="1537980283126" duration="8195000" />
+      <workItem from="1538058738300" duration="15989000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34907000" />
+    <option name="totallyTimeSpent" value="50896000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="611" y="113" width="1241" height="959" extended-state="0" />
+    <frame x="305" y="84" width="1241" height="959" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2244898" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -242,6 +288,13 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Lesson-6-PSD/styles/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3859">
+          <caret line="227" column="13" selection-start-line="227" selection-start-column="13" selection-end-line="227" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Lesson-3/catalogue/third.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -572,20 +625,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lesson-6-PSD/img/arrow.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Lesson-6-PSD/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="61" column="33" selection-start-line="61" selection-start-column="33" selection-end-line="61" selection-end-column="33" />
+        <state relative-caret-position="575">
+          <caret line="229" column="106" selection-start-line="229" selection-start-column="106" selection-end-line="229" selection-end-column="106" />
           <folding>
-            <element signature="e#972#978#0" expanded="true" />
-            <element signature="e#1019#1025#0" expanded="true" />
-            <element signature="e#1068#1074#0" expanded="true" />
-            <element signature="e#2142#2148#0" expanded="true" />
-            <element signature="e#2146#2152#0" expanded="true" />
-            <element signature="e#2151#2157#0" expanded="true" />
             <element signature="e#2156#2162#0" expanded="true" />
             <element signature="e#2540#2546#0" expanded="true" />
             <element signature="e#2549#2555#0" expanded="true" />
@@ -599,14 +643,56 @@
             <element signature="e#3316#3322#0" expanded="true" />
             <element signature="e#3326#3332#0" expanded="true" />
             <element signature="e#3336#3342#0" expanded="true" />
+            <element signature="e#3724#3730#0" expanded="true" />
+            <element signature="e#3733#3739#0" expanded="true" />
+            <element signature="e#3743#3749#0" expanded="true" />
+            <element signature="e#3753#3759#0" expanded="true" />
+            <element signature="e#3769#3775#0" expanded="true" />
+            <element signature="e#3779#3785#0" expanded="true" />
+            <element signature="e#3782#3788#0" expanded="true" />
+            <element signature="e#3797#3803#0" expanded="true" />
+            <element signature="e#3807#3813#0" expanded="true" />
+            <element signature="e#4218#4224#0" expanded="true" />
+            <element signature="e#4227#4233#0" expanded="true" />
+            <element signature="e#4237#4243#0" expanded="true" />
+            <element signature="e#4247#4253#0" expanded="true" />
+            <element signature="e#4263#4269#0" expanded="true" />
+            <element signature="e#4273#4279#0" expanded="true" />
+            <element signature="e#4281#4287#0" expanded="true" />
+            <element signature="e#4291#4297#0" expanded="true" />
+            <element signature="e#4301#4307#0" expanded="true" />
+            <element signature="e#5651#5657#0" expanded="true" />
+            <element signature="e#5655#5661#0" expanded="true" />
+            <element signature="e#5660#5666#0" expanded="true" />
+            <element signature="e#5666#5672#0" expanded="true" />
+            <element signature="e#5676#5682#0" expanded="true" />
+            <element signature="e#5681#5687#0" expanded="true" />
+            <element signature="e#5694#5700#0" expanded="true" />
+            <element signature="e#5699#5705#0" expanded="true" />
+            <element signature="e#5705#5711#0" expanded="true" />
+            <element signature="e#5712#5718#0" expanded="true" />
+            <element signature="e#6931#6937#0" expanded="true" />
+            <element signature="e#6940#6946#0" expanded="true" />
+            <element signature="e#6950#6956#0" expanded="true" />
+            <element signature="e#6960#6966#0" expanded="true" />
+            <element signature="e#6976#6982#0" expanded="true" />
+            <element signature="e#6986#6992#0" expanded="true" />
+            <element signature="e#6994#7000#0" expanded="true" />
+            <element signature="e#7004#7010#0" expanded="true" />
+            <element signature="e#7014#7020#0" expanded="true" />
+            <element signature="e#10039#10045#0" expanded="true" />
+            <element signature="e#10205#10211#1" expanded="true" />
+            <element signature="e#10262#10268#1" expanded="true" />
+            <element signature="e#10318#10324#1" expanded="true" />
+            <element signature="e#10377#10383#1" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lesson-6-PSD/styles/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="227" column="13" selection-start-line="227" selection-start-column="13" selection-end-line="227" selection-end-column="13" />
+        <state relative-caret-position="602">
+          <caret line="668" column="19" selection-start-line="668" selection-start-column="19" selection-end-line="668" selection-end-column="19" />
         </state>
       </provider>
     </entry>

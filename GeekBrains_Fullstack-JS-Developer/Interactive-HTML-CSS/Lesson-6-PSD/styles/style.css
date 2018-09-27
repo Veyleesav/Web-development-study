@@ -100,7 +100,7 @@
     color: #212121;
 }
 .button-order:hover{
-    background: #ffffff url("../img/arrow.svg") no-repeat 173px 16px;
+    background: #ffffff url("../img/arrow.svg") no-repeat 180px 16px;
 }
 .radionav{
     margin-top:100px;
@@ -123,10 +123,6 @@
     }
 .radiobutton:hover{
     background-color: #212121;
-}
-.products{
-    height:609px;
-    border: 1px solid red;
 }
 .tab-controll{
     margin-top: 120px;
@@ -154,7 +150,7 @@
     color: #212121;
     border-bottom: 3px solid #212121;
 }
-.tab-controll .explore{
+.explore{
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
@@ -168,10 +164,13 @@
     position: relative;
     top:28px;
 }
-.tab-controll .explore::after{
+.explore::after{
     content: url("../img/arrow.svg");
     position: relative;
     left:12px;
+}
+.product-promo-wrapper{
+    padding-bottom:120px;
 }
 .product-content{
     margin-top: 72px;
@@ -198,7 +197,7 @@
 .details-1{
         width:270px;
     height: 270px;
-    position:absolute;
+    position:absolute;  /* Я понимаю степень греха, на которую иду, используя absolute, позже надо будет поправить через дополнительный div-wrapper */
     top:1100px;
     left:415px;
     opacity:0;
@@ -262,3 +261,412 @@
     text-align: center;
     color: #6c6c6c;
 }
+.product-promo-wrapper{
+    margin-top:120px;
+}
+.product-promo{
+    width: 50%;
+    height: 683px;
+    float:left;
+}
+.product-promo-1{
+    background: url("../img/promo-img1.jpg");
+}
+.product-promo-2{
+    background: url("../img/promo-img2.jpg");
+}
+.promo-ad{
+    margin-left: 50px;
+    margin-top: 228px;
+}
+.promo-exclusive{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.67;
+    letter-spacing: 1.8px;
+    text-align: left;
+    color: #1e88e5;
+}
+.promo-name{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #212121;
+}
+.promo-text{
+    width: 374px;
+    height: 36px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    text-align: left;
+    color: #6c6c6c;
+}
+.button-order-promo{
+    display: block;
+    margin-top: 34px;
+    width: 212px;
+    height: 45px;
+    border-radius: 22.5px;
+    background: #ffffff;
+    box-shadow: 0px 2px 4.9px 0.2px rgba(33, 33, 33, 0.35);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 45px;
+    letter-spacing: 3.6px;
+    padding-left:31px;
+    text-decoration: none;
+    color: #212121;
+}
+.button-order-promo:hover{
+    background: #ffffff url("../img/arrow.svg") no-repeat 173px 16px;
+}
+.trending-wrapper{
+    margin-top:660px; /* Очень долго тыкался, но так и не осознал, что тут происходит :C */
+    margin-bottom: 190px;
+}
+.trending-head{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #212121;
+    margin-top: 119px;
+    margin-left:98px;
+}
+.trending-images{
+    margin-left:98px;
+    margin-top:64px;
+}
+.trending-img{
+    width: 370px;
+    height: 370px;
+    padding:0 30px 30px 0;
+    display: inline-block;
+    }
+.explore-trending{
+    display:block;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: 3.6px;
+    color: #212121;
+    position: relative;
+    right:118px;
+    bottom:20px;
+    float:right;
+}
+.explore-trending::after{
+    content: url("../img/arrow.svg");
+    position: relative;
+    left:12px;
+}
+.slider{
+    height:800px;
+    background: url("../img/slider-2.jpg") no-repeat;
+
+}
+.slider-text-2 {
+    font-family: 'Montserrat', sans-serif;
+    margin-left:98px;
+    padding-top:287px;/* Здесь margin-top почему-то сломался, использовал паддинг */
+}
+.slider-text-top-2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.67;
+    letter-spacing: 1.8px;
+    text-align: left;
+    color: #e53935;
+}
+.promo-2{
+    margin-top: 120px;
+    margin-left: 98px;
+}
+.promo-2-big{
+    width: 570px;
+    height: 570px;
+    background: url("../img/promo-2/product-1-lg.jpg");
+    float:left;
+}
+.promo-2-small{
+    padding: 0 30px 26px 30px;
+}
+.mobile-app{
+    margin-top: 70px;
+    background: url("../img/back-img.jpg");
+    height: 516px;
+}
+.mobile-tag{
+    padding-top: 125px;
+    margin-left: 98px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.67;
+    letter-spacing: 1.8px;
+    text-align: left;
+    color: #6c6c6c;
+}
+.slogan{
+    margin-top: 22px;
+    margin-left: 98px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 62px;
+    font-weight: 100;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.16;
+    letter-spacing: normal;
+    text-align: left;
+    color: #212121;
+}
+.mobile-text{
+    margin-top: 26px;
+    margin-left: 98px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.09;
+    letter-spacing: normal;
+    text-align: left;
+    color: #6c6c6c;
+}
+.store-links{
+    margin-top: 33px;
+    margin-left: 98px;
+}
+.appstore-link{
+    display: block;
+    width: 135px;
+    height: 40px;
+    padding-right:10px;
+    float:left;
+}
+.gmail-link{
+    display: block;
+    width: 135px;
+    height: 40px;
+   }
+.footer{
+    height: 423px;   /* +39px */
+    background-color: #f7f7f7;
+}
+.contact{
+    margin-top: 120px;
+    margin-left: 98px;
+    float:left;
+}
+.navi-head{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: 1.8px;
+    text-align: left;
+    color: #6c6c6c;
+    margin-bottom:20px;
+}
+.contact-text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.57;
+    letter-spacing: normal;
+    text-align: left;
+    color: #212121;
+}
+.useful{
+    padding-top: 120px;
+    margin-left:81px;
+    float:left;
+    padding-right:79px;
+}
+.useful li{
+    list-style-type: none;
+}
+.useful-ul-1 li a, .useful-ul-2 li a{
+text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.86;
+    letter-spacing: 0.7px;
+    text-align: left;
+    color: #212121;
+}
+.useful-ul-1{
+    float:left;
+}
+.useful-ul-2{
+    margin-left: 240px;
+}
+.subscribe {
+    padding-top: 120px;
+}
+.contact-form{
+    margin-top:26px ;
+}
+.contact-mail {
+    width: 300px;
+    height: 48px;
+    background-color: #ffffff;
+    border: solid 1px #d9dee1;
+    border-right:0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.57;
+    letter-spacing: normal;
+    text-align: left;
+    color: #6c6c6c;
+    padding-left:19px;
+}
+.contact-mail:focus {
+    outline: none;
+}
+.submit-zone{
+    text-align:center;
+    line-height: 48px;
+    height: 48px;
+    width: 48px;
+    float:right;
+    position: relative;
+    right:98px;
+    background-color: #ffffff;
+    border: solid 1px #d9dee1;
+    border-left:0;
+}
+
+footer {
+    text-transform: uppercase;
+    margin-top:77px;
+    margin-left: 98px;
+}
+.copy{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.17;
+    letter-spacing: 0.6px;
+    text-align: left;
+    color: #6c6c6c;
+    float:left;
+    padding-right: 158px;
+}
+.social{
+    float:left;
+    height: 28px;
+    padding-right: 172px;
+}
+.social ul{
+    list-style-type: none;
+
+}
+.social ul li {
+    float:left;
+    margin-left:5px;
+
+}
+.social ul li a{
+    text-decoration: none;
+    display: block;
+}
+#facebook{
+    padding:0;
+    width:28px;
+    height:28px;
+    border-radius:14px;
+    background: url('../img/social-links-sprite.png') 0 0;
+
+}
+#twitter{
+    padding:0;
+    width:28px;
+    height:28px;
+    border-radius:14px;
+    background: url('../img/social-links-sprite.png') -34px 0;
+}
+#google{
+    padding:0;
+    width:28px;
+    height:28px;
+    border-radius:14px;
+    background: url('../img/social-links-sprite.png') -66px 0;
+}
+#pinterest{
+    padding:0;
+    width:28px;
+    height:28px;
+    border-radius:14px;
+    background: url('../img/social-links-sprite.png') -100px 0;
+
+}
+
+.conditions {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.17;
+    letter-spacing: 0.6px;
+    color: #6c6c6c;
+
+}
+
+.conditions a{
+    text-decoration: none;
+}
+.conditions a:visited{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.17;
+    letter-spacing: 0.6px;
+    color: #6c6c6c;
+}
+
+/* TODO: HOVERS AND PIXEL PERFECT */
