@@ -3,8 +3,36 @@
   <component name="ChangeListManager">
     <list default="true" id="32b51db4-e5c6-4483-8715-aad81476dbcf" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson-6-PSD/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson-6-PSD/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson-6-PSD/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson-6-PSD/styles/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson-6-PSD/img/active.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson-6-PSD/img/app-store.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson-6-PSD/img/arrow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson-6-PSD/img/back-img.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson-6-PSD/img/google-play.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson-6-PSD/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson-6-PSD/img/navi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson-6-PSD/img/plane.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson-6-PSD/img/product-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson-6-PSD/img/product-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson-6-PSD/img/product-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson-6-PSD/img/product-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson-6-PSD/img/promo-2/product-1-lg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson-6-PSD/img/promo-2/product-2-sm.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson-6-PSD/img/promo-2/product-3-sm.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson-6-PSD/img/promo-2/product-4-sm.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson-6-PSD/img/promo-2/product-5-sm.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson-6-PSD/img/promo-img1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson-6-PSD/img/promo-img2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson-6-PSD/img/slider-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson-6-PSD/img/slider-img.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson-6-PSD/img/social-links-sprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson-6-PSD/img/trending/product-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson-6-PSD/img/trending/product-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson-6-PSD/img/trending/product-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson-6-PSD/img/trending/product-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson-6-PSD/img/trending/product-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson-6-PSD/img/trending/product-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson-6-PSD/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson-6-PSD/styles/style.css" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,77 +46,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lesson-6-PSD/index.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Lesson-6-PSD/HTML/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="229" column="106" selection-start-line="229" selection-start-column="106" selection-end-line="229" selection-end-column="106" />
-              <folding>
-                <element signature="e#2156#2162#0" expanded="true" />
-                <element signature="e#2540#2546#0" expanded="true" />
-                <element signature="e#2549#2555#0" expanded="true" />
-                <element signature="e#2559#2565#0" expanded="true" />
-                <element signature="e#2569#2575#0" expanded="true" />
-                <element signature="e#2923#2929#0" expanded="true" />
-                <element signature="e#2932#2938#0" expanded="true" />
-                <element signature="e#2942#2948#0" expanded="true" />
-                <element signature="e#2952#2958#0" expanded="true" />
-                <element signature="e#3307#3313#0" expanded="true" />
-                <element signature="e#3316#3322#0" expanded="true" />
-                <element signature="e#3326#3332#0" expanded="true" />
-                <element signature="e#3336#3342#0" expanded="true" />
-                <element signature="e#3724#3730#0" expanded="true" />
-                <element signature="e#3733#3739#0" expanded="true" />
-                <element signature="e#3743#3749#0" expanded="true" />
-                <element signature="e#3753#3759#0" expanded="true" />
-                <element signature="e#3769#3775#0" expanded="true" />
-                <element signature="e#3779#3785#0" expanded="true" />
-                <element signature="e#3782#3788#0" expanded="true" />
-                <element signature="e#3797#3803#0" expanded="true" />
-                <element signature="e#3807#3813#0" expanded="true" />
-                <element signature="e#4218#4224#0" expanded="true" />
-                <element signature="e#4227#4233#0" expanded="true" />
-                <element signature="e#4237#4243#0" expanded="true" />
-                <element signature="e#4247#4253#0" expanded="true" />
-                <element signature="e#4263#4269#0" expanded="true" />
-                <element signature="e#4273#4279#0" expanded="true" />
-                <element signature="e#4281#4287#0" expanded="true" />
-                <element signature="e#4291#4297#0" expanded="true" />
-                <element signature="e#4301#4307#0" expanded="true" />
-                <element signature="e#5651#5657#0" expanded="true" />
-                <element signature="e#5655#5661#0" expanded="true" />
-                <element signature="e#5660#5666#0" expanded="true" />
-                <element signature="e#5666#5672#0" expanded="true" />
-                <element signature="e#5676#5682#0" expanded="true" />
-                <element signature="e#5681#5687#0" expanded="true" />
-                <element signature="e#5694#5700#0" expanded="true" />
-                <element signature="e#5699#5705#0" expanded="true" />
-                <element signature="e#5705#5711#0" expanded="true" />
-                <element signature="e#5712#5718#0" expanded="true" />
-                <element signature="e#6931#6937#0" expanded="true" />
-                <element signature="e#6940#6946#0" expanded="true" />
-                <element signature="e#6950#6956#0" expanded="true" />
-                <element signature="e#6960#6966#0" expanded="true" />
-                <element signature="e#6976#6982#0" expanded="true" />
-                <element signature="e#6986#6992#0" expanded="true" />
-                <element signature="e#6994#7000#0" expanded="true" />
-                <element signature="e#7004#7010#0" expanded="true" />
-                <element signature="e#7014#7020#0" expanded="true" />
-                <element signature="e#10039#10045#0" expanded="true" />
-                <element signature="e#10205#10211#1" expanded="true" />
-                <element signature="e#10262#10268#1" expanded="true" />
-                <element signature="e#10318#10324#1" expanded="true" />
-                <element signature="e#10377#10383#1" expanded="true" />
-              </folding>
+            <state relative-caret-position="187">
+              <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Lesson-6-PSD/styles/style.css">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lesson-6-PSD/HTML/styles/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="602">
-              <caret line="668" column="19" selection-start-line="668" selection-start-column="19" selection-end-line="668" selection-end-column="19" />
+            <state relative-caret-position="2041">
+              <caret line="355" column="13" lean-forward="true" selection-start-line="355" selection-start-column="13" selection-end-line="355" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -113,10 +84,14 @@
       <find>slider-text</find>
       <find>wra</find>
       <find>promo</find>
-      <find>order</find>
       <find>order-promo</find>
       <find>copy</find>
       <find>social</find>
+      <find>order</find>
+      <find>arrow</find>
+      <find>details</find>
+      <find>radiobutton</find>
+      <find>radionav</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -159,8 +134,11 @@
         <option value="$PROJECT_DIR$/Lesson-5/contacts.html" />
         <option value="$PROJECT_DIR$/Lesson-5/styles/style.css" />
         <option value="$USER_HOME$/Downloads/ПИ/Lesson5/css/style.css" />
+        <option value="$PROJECT_DIR$/Lesson-6-PSD/experimental/styles/style.css" />
         <option value="$PROJECT_DIR$/Lesson-6-PSD/index.html" />
         <option value="$PROJECT_DIR$/Lesson-6-PSD/styles/style.css" />
+        <option value="$PROJECT_DIR$/Lesson-6-PSD/HTML/styles/style.css" />
+        <option value="$PROJECT_DIR$/Lesson-6-PSD/HTML/index.html" />
       </list>
     </option>
   </component>
@@ -171,8 +149,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="305" />
-    <option name="y" value="84" />
+    <option name="x" value="238" />
+    <option name="y" value="114" />
     <option name="width" value="1241" />
     <option name="height" value="959" />
   </component>
@@ -200,6 +178,13 @@
               <item name="Interactive-HTML-CSS" type="b2602c69:ProjectViewProjectNode" />
               <item name="Interactive-HTML-CSS" type="462c0819:PsiDirectoryNode" />
               <item name="Lesson-6-PSD" type="462c0819:PsiDirectoryNode" />
+              <item name="HTML" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Interactive-HTML-CSS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Interactive-HTML-CSS" type="462c0819:PsiDirectoryNode" />
+              <item name="Lesson-6-PSD" type="462c0819:PsiDirectoryNode" />
+              <item name="HTML" type="462c0819:PsiDirectoryNode" />
               <item name="styles" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -253,14 +238,17 @@
       <workItem from="1537946964703" duration="3748000" />
       <workItem from="1537980283126" duration="8195000" />
       <workItem from="1538058738300" duration="15989000" />
+      <workItem from="1538121128138" duration="7351000" />
+      <workItem from="1538134866031" duration="4944000" />
+      <workItem from="1538140753957" duration="115000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50896000" />
+    <option name="totallyTimeSpent" value="63306000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="305" y="84" width="1241" height="959" extended-state="0" />
+    <frame x="238" y="114" width="1241" height="959" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2244898" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -288,34 +276,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Lesson-6-PSD/styles/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3859">
-          <caret line="227" column="13" selection-start-line="227" selection-start-column="13" selection-end-line="227" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lesson-3/catalogue/third.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lesson-2-HW/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lesson-2/reg.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="25" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Lesson-2/catalog/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -625,74 +585,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lesson-6-PSD/index.html">
+    <entry file="file://$PROJECT_DIR$/Lesson-6-PSD/experimental/styles/style.css" />
+    <entry file="file://$PROJECT_DIR$/Lesson-6-PSD/experimental/index.html" />
+    <entry file="file://$PROJECT_DIR$/Lesson-6-PSD/index.html" />
+    <entry file="file://$PROJECT_DIR$/Lesson-6-PSD/styles/style.css" />
+    <entry file="file://$PROJECT_DIR$/Lesson-6-PSD/HTML/styles/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="229" column="106" selection-start-line="229" selection-start-column="106" selection-end-line="229" selection-end-column="106" />
-          <folding>
-            <element signature="e#2156#2162#0" expanded="true" />
-            <element signature="e#2540#2546#0" expanded="true" />
-            <element signature="e#2549#2555#0" expanded="true" />
-            <element signature="e#2559#2565#0" expanded="true" />
-            <element signature="e#2569#2575#0" expanded="true" />
-            <element signature="e#2923#2929#0" expanded="true" />
-            <element signature="e#2932#2938#0" expanded="true" />
-            <element signature="e#2942#2948#0" expanded="true" />
-            <element signature="e#2952#2958#0" expanded="true" />
-            <element signature="e#3307#3313#0" expanded="true" />
-            <element signature="e#3316#3322#0" expanded="true" />
-            <element signature="e#3326#3332#0" expanded="true" />
-            <element signature="e#3336#3342#0" expanded="true" />
-            <element signature="e#3724#3730#0" expanded="true" />
-            <element signature="e#3733#3739#0" expanded="true" />
-            <element signature="e#3743#3749#0" expanded="true" />
-            <element signature="e#3753#3759#0" expanded="true" />
-            <element signature="e#3769#3775#0" expanded="true" />
-            <element signature="e#3779#3785#0" expanded="true" />
-            <element signature="e#3782#3788#0" expanded="true" />
-            <element signature="e#3797#3803#0" expanded="true" />
-            <element signature="e#3807#3813#0" expanded="true" />
-            <element signature="e#4218#4224#0" expanded="true" />
-            <element signature="e#4227#4233#0" expanded="true" />
-            <element signature="e#4237#4243#0" expanded="true" />
-            <element signature="e#4247#4253#0" expanded="true" />
-            <element signature="e#4263#4269#0" expanded="true" />
-            <element signature="e#4273#4279#0" expanded="true" />
-            <element signature="e#4281#4287#0" expanded="true" />
-            <element signature="e#4291#4297#0" expanded="true" />
-            <element signature="e#4301#4307#0" expanded="true" />
-            <element signature="e#5651#5657#0" expanded="true" />
-            <element signature="e#5655#5661#0" expanded="true" />
-            <element signature="e#5660#5666#0" expanded="true" />
-            <element signature="e#5666#5672#0" expanded="true" />
-            <element signature="e#5676#5682#0" expanded="true" />
-            <element signature="e#5681#5687#0" expanded="true" />
-            <element signature="e#5694#5700#0" expanded="true" />
-            <element signature="e#5699#5705#0" expanded="true" />
-            <element signature="e#5705#5711#0" expanded="true" />
-            <element signature="e#5712#5718#0" expanded="true" />
-            <element signature="e#6931#6937#0" expanded="true" />
-            <element signature="e#6940#6946#0" expanded="true" />
-            <element signature="e#6950#6956#0" expanded="true" />
-            <element signature="e#6960#6966#0" expanded="true" />
-            <element signature="e#6976#6982#0" expanded="true" />
-            <element signature="e#6986#6992#0" expanded="true" />
-            <element signature="e#6994#7000#0" expanded="true" />
-            <element signature="e#7004#7010#0" expanded="true" />
-            <element signature="e#7014#7020#0" expanded="true" />
-            <element signature="e#10039#10045#0" expanded="true" />
-            <element signature="e#10205#10211#1" expanded="true" />
-            <element signature="e#10262#10268#1" expanded="true" />
-            <element signature="e#10318#10324#1" expanded="true" />
-            <element signature="e#10377#10383#1" expanded="true" />
-          </folding>
+        <state relative-caret-position="2041">
+          <caret line="355" column="13" lean-forward="true" selection-start-line="355" selection-start-column="13" selection-end-line="355" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lesson-6-PSD/styles/style.css">
+    <entry file="file://$PROJECT_DIR$/Lesson-6-PSD/HTML/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="602">
-          <caret line="668" column="19" selection-start-line="668" selection-start-column="19" selection-end-line="668" selection-end-column="19" />
+        <state relative-caret-position="187">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
         </state>
       </provider>
     </entry>

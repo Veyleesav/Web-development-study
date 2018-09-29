@@ -95,15 +95,19 @@
     font-stretch: normal;
     line-height: 45px;
     letter-spacing: 3.6px;
-    padding-left:31px;
+    padding-left:40px;
     text-decoration: none;
     color: #212121;
 }
 .button-order:hover{
-    background: #ffffff url("../img/arrow.svg") no-repeat 180px 16px;
+    background: #ffffff url("../img/arrow.svg") no-repeat 200px 16px;
 }
 .radionav{
     margin-top:100px;
+    margin-left:623px;
+}
+.radionav-2{
+    margin-top:210px;
     margin-left:623px;
 }
 .radiobutton, .radiobutton-mid {
@@ -179,12 +183,15 @@
 .product-img{
     padding: 0 15px;
 }
+
 .product-img:hover{            /* Так и не получилось реализовать полноценный ховер, пропадает при наведении на текст */
     opacity: 0.3;
+    cursor: pointer;
 }
 .product-img-1:hover ~ .details-1{
     opacity:1;
 }
+
 .product-img-2:hover ~ .details-2{
     opacity:1;
 }
@@ -195,6 +202,7 @@
     opacity:1;
 }
 .details-1{
+    pointer-events : none;
         width:270px;
     height: 270px;
     position:absolute;  /* Я понимаю степень греха, на которую иду, используя absolute, позже надо будет поправить через дополнительный div-wrapper */
@@ -202,7 +210,11 @@
     left:415px;
     opacity:0;
 }
+.details-1:hover{
+    border: 500px solid red;
+}
 .details-2{
+    pointer-events : none;
     width:270px;
     height: 270px;
     position:absolute;
@@ -211,6 +223,7 @@
     opacity:0;
 }
 .details-3{
+    pointer-events : none;
     width:270px;
     height: 270px;
     position:absolute;
@@ -219,6 +232,7 @@
     opacity:0;
 }
 .details-4{
+    pointer-events : none;
     width:270px;
     height: 270px;
     position:absolute;
@@ -329,16 +343,22 @@
     font-stretch: normal;
     line-height: 45px;
     letter-spacing: 3.6px;
-    padding-left:31px;
+    padding-left:40px;
     text-decoration: none;
     color: #212121;
 }
 .button-order-promo:hover{
-    background: #ffffff url("../img/arrow.svg") no-repeat 173px 16px;
+    background: #ffffff url("../img/arrow.svg") no-repeat 200px 16px;
+}
+.button-order-promo:active{
+    box-shadow: none;
+}
+.button-order:active{
+    box-shadow: none;
 }
 .trending-wrapper{
     margin-top:660px; /* Очень долго тыкался, но так и не осознал, что тут происходит :C */
-    margin-bottom: 190px;
+    margin-bottom: 120px;
 }
 .trending-head{
     font-family: 'Montserrat', sans-serif;
@@ -531,6 +551,10 @@ text-decoration: none;
     text-align: left;
     color: #212121;
 }
+.useful li a:hover{
+    border-bottom: 3px solid #212121;
+}
+
 .useful-ul-1{
     float:left;
 }
@@ -612,6 +636,7 @@ footer {
     text-decoration: none;
     display: block;
 }
+
 #facebook{
     padding:0;
     width:28px;
@@ -620,6 +645,9 @@ footer {
     background: url('../img/social-links-sprite.png') 0 0;
 
 }
+#facebook:hover{
+    background: #4267b2 url('../img/social-links-sprite.png') 0 0;
+}
 #twitter{
     padding:0;
     width:28px;
@@ -627,20 +655,29 @@ footer {
     border-radius:14px;
     background: url('../img/social-links-sprite.png') -34px 0;
 }
+#twitter:hover{
+    background: #1ca1f2 url('../img/social-links-sprite.png') -34px 0;
+}
 #google{
     padding:0;
     width:28px;
     height:28px;
     border-radius:14px;
-    background: url('../img/social-links-sprite.png') -66px 0;
+    background: url('../img/social-links-sprite.png') -67.4px 0;
+}
+#google:hover{
+    background: #d54133 url('../img/social-links-sprite.png') -67.4px 0;
 }
 #pinterest{
     padding:0;
     width:28px;
     height:28px;
     border-radius:14px;
-    background: url('../img/social-links-sprite.png') -100px 0;
+    background: url('../img/social-links-sprite.png') -101px 0;
 
+}
+#pinterest:hover{
+    background: #d01338 url('../img/social-links-sprite.png') -101px 0;
 }
 
 .conditions {
@@ -657,6 +694,14 @@ footer {
 
 .conditions a{
     text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.17;
+    letter-spacing: 0.6px;
+    color: #6c6c6c;
 }
 .conditions a:visited{
     font-family: 'Montserrat', sans-serif;
@@ -668,5 +713,11 @@ footer {
     letter-spacing: 0.6px;
     color: #6c6c6c;
 }
-
-/* TODO: HOVERS AND PIXEL PERFECT */
+.conditions a:hover{
+    color:#212121;
+    -webkit-text-stroke: 0.5px #212121;  /* The only way i found to trick the text shift and save boldness of the hovered text*/
+    border-bottom: 2px solid #212121;
+}
+address{
+    font-style: normal;
+}
