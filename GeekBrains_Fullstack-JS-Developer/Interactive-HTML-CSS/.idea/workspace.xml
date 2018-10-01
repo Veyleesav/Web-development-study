@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32b51db4-e5c6-4483-8715-aad81476dbcf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Lesson-7/HTML/contact.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson-7/HTML/details.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson-7/HTML/product.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson-6-PSD/HTML.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson-7/HTML/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson-7/HTML/styles/style.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,7 +19,7 @@
       <file leaf-file-name="details.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Lesson-7/HTML/details.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
+            <state relative-caret-position="340">
               <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
             </state>
           </provider>
@@ -32,7 +28,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Lesson-7/HTML/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2074">
+            <state relative-caret-position="1576">
               <caret line="122" column="14" selection-start-line="92" selection-start-column="8" selection-end-line="122" selection-end-column="14" />
             </state>
           </provider>
@@ -60,8 +56,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Lesson-7/HTML/styles/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="1032" column="20" selection-start-line="1032" selection-start-column="20" selection-end-line="1032" selection-end-column="20" />
+            <state relative-caret-position="559">
+              <caret line="1069" column="54" selection-start-line="1069" selection-start-column="54" selection-end-line="1069" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -183,7 +179,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -213,6 +208,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -264,11 +260,12 @@
       <workItem from="1538140753957" duration="115000" />
       <workItem from="1538381628229" duration="14051000" />
       <workItem from="1538395904755" duration="63000" />
+      <workItem from="1538398189619" duration="123000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77420000" />
+    <option name="totallyTimeSpent" value="77543000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="267" y="141" width="1243" height="804" extended-state="0" />
@@ -295,19 +292,19 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22412388" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.16086066" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
@@ -625,24 +622,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lesson-7/HTML/index.html">
+    <entry file="file://$PROJECT_DIR$/Lesson-7/HTML/details.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2074">
-          <caret line="122" column="14" selection-start-line="92" selection-start-column="8" selection-end-line="122" selection-end-column="14" />
+        <state relative-caret-position="340">
+          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lesson-7/HTML/details.html">
+    <entry file="file://$PROJECT_DIR$/Lesson-7/HTML/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+        <state relative-caret-position="1576">
+          <caret line="122" column="14" selection-start-line="92" selection-start-column="8" selection-end-line="122" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lesson-7/HTML/styles/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="1032" column="20" selection-start-line="1032" selection-start-column="20" selection-end-line="1032" selection-end-column="20" />
+        <state relative-caret-position="559">
+          <caret line="1069" column="54" selection-start-line="1069" selection-start-column="54" selection-end-line="1069" selection-end-column="54" />
         </state>
       </provider>
     </entry>
