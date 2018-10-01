@@ -1,0 +1,1068 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,700');
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    max-width: 1366px;
+    margin:0 auto;
+}
+
+.header{
+    height: 800px;
+    background-image:url("../img/slider-img.jpg");
+}
+.navbar .logo{
+    margin-top: 63px;
+    margin-left: 98px;
+}
+.navbar .navigation{
+    margin-top:4%;
+    margin-right: 15%;
+    float:right;
+}
+.navbar .navigation .navigation-link{
+    list-style-type: none;
+    float:left;
+}
+
+.navbar .navigation .navigation-link a{
+    font-family: 'Montserrat', sans-serif;
+    display:block;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 48px;
+    letter-spacing: 1.4px;
+    color: #8c8c8c;
+    margin: 0 5px 0 5px;
+    padding: 0 20px;
+}
+ .navbar .navigation .navigation-link a:hover{
+    color:#212121;
+    -webkit-text-stroke: 1.5px #212121;  /* The only way i found to trick the text shift and save boldness of the hovered text*/
+   border-bottom: 3px solid #212121;
+}
+ .navbar .navigation:last-child::after{
+     content: url("../img/search.png");
+     position: relative;
+     top:12px;
+     cursor: pointer;
+ }
+
+ .link-active a{
+     cursor: default;
+     color:#212121;
+     -webkit-text-stroke: 1.5px #212121;  /* The only way i found to trick the text shift and save boldness of the hovered text*/
+     border-bottom: 3px solid #212121;
+ }
+.slider-text {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 21%;
+    margin-left:5%;
+}
+.slider-text-top{
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.67;
+    letter-spacing: 1.8px;
+    text-align: left;
+    color: #43a047;
+}
+.slider-text-name{
+    font-size: 62px;
+    font-weight: 200;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.16;
+    letter-spacing: normal;
+    color: #212121;
+}
+.slider-text-main{
+    width: 458px;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    color: #6c6c6c;
+}
+.button-order{
+    display: block;
+    margin-top: 32px;
+    margin-left: 98px;
+    width: 212px;
+    height: 45px;
+    border-radius: 22.5px;
+    background: #ffffff;
+    box-shadow: 0px 2px 4.9px 0.2px rgba(33, 33, 33, 0.35);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 45px;
+    letter-spacing: 3.6px;
+    padding-left:40px;
+    text-decoration: none;
+    color: #212121;
+}
+.button-order:hover{
+    background: #ffffff url("../img/arrow.svg") no-repeat 200px 16px;
+}
+.radionav{
+    margin-top:100px;
+    margin-left:623px;
+}
+.radionav-2{
+    margin-top:210px;
+    margin-left:623px;
+}
+.radiobutton, .radiobutton-mid {
+    height: 30px;
+    width: 30px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 5px;
+}
+.radiobutton-mid{
+    position: relative;
+    top:5px;
+    height: 40px;
+    width: 40px;
+    background-color: #212121;
+    }
+.radiobutton:hover{
+    background-color: #212121;
+}
+.tab-controll{
+    margin-top: 120px;
+    margin-left: 107px;
+}
+.controller-link {
+    list-style-type: none;
+    float:left;
+}
+.controller-link a{
+    padding: 0 20px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #6c6c6c;
+    border-bottom: 1px solid #6c6c6c;
+}
+.controller-link a:hover {
+    color: #212121;
+    border-bottom: 3px solid #212121;
+}
+.explore{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: 3.6px;
+    color: #212121;
+    margin-left: 680px;
+    position: relative;
+    top:28px;
+}
+.explore::after{
+    content: url("../img/arrow.svg");
+    position: relative;
+    left:12px;
+}
+.product-promo-wrapper{
+    padding-bottom:120px;
+}
+.product-content{
+    margin-top: 72px;
+    margin-left: 98px;
+}
+.product-img{
+    padding: 0 15px;
+}
+
+.product-img:hover{            /* Так и не получилось реализовать полноценный ховер, пропадает при наведении на текст */
+    opacity: 0.3;
+    cursor: pointer;
+}
+.product-img-1:hover ~ .details-1{
+    opacity:1;
+}
+
+.product-img-2:hover ~ .details-2{
+    opacity:1;
+}
+.product-img-3:hover ~ .details-3{
+    opacity:1;
+}
+.product-img-4:hover ~ .details-4{
+    opacity:1;
+}
+.details-1{
+    pointer-events : none;
+        width:270px;
+    height: 270px;
+    position:absolute;  /* Я понимаю степень греха, на которую иду, используя absolute, позже надо будет поправить через дополнительный div-wrapper */
+    top:1100px;
+    left:415px;
+    opacity:0;
+}
+.details-1:hover{
+    border: 500px solid red;
+}
+.details-2{
+    pointer-events : none;
+    width:270px;
+    height: 270px;
+    position:absolute;
+    top:1100px;
+    left:715px;
+    opacity:0;
+}
+.details-3{
+    pointer-events : none;
+    width:270px;
+    height: 270px;
+    position:absolute;
+    top:1100px;
+    left:1020px;
+    opacity:0;
+}
+.details-4{
+    pointer-events : none;
+    width:270px;
+    height: 270px;
+    position:absolute;
+    top:1100px;
+    left:1335px;
+    opacity:0;
+}
+.details-arrow{
+    position: relative;
+    left:70px;
+    bottom:10px;
+    display: block;
+    width: 48px;
+    height: 48px;
+    border-radius: 24px;
+    background: #ffffff url("../img/arrow.svg") no-repeat center;
+    box-shadow: 0px 2px 4.9px 0.2px rgba(33, 33, 33, 0.35);
+}
+.details-name{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.36;
+    letter-spacing: normal;
+    color: #212121;
+    margin-left:25px;
+}
+.details-text{
+    width: 206px;
+    height: 33px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.57;
+    letter-spacing: normal;
+    text-align: center;
+    color: #6c6c6c;
+}
+.product-promo-wrapper{
+    margin-top:120px;
+}
+.product-promo{
+    width: 50%;
+    height: 683px;
+    float:left;
+}
+.product-promo-1{
+    background: url("../img/promo-img1.jpg");
+}
+.product-promo-2{
+    background: url("../img/promo-img2.jpg");
+}
+.promo-ad{
+    margin-left: 50px;
+    margin-top: 228px;
+}
+.promo-exclusive{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.67;
+    letter-spacing: 1.8px;
+    text-align: left;
+    color: #1e88e5;
+}
+.promo-name{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #212121;
+}
+.promo-text{
+    width: 374px;
+    height: 36px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    text-align: left;
+    color: #6c6c6c;
+}
+.button-order-promo{
+    display: block;
+    margin-top: 34px;
+    width: 212px;
+    height: 45px;
+    border-radius: 22.5px;
+    background: #ffffff;
+    box-shadow: 0px 2px 4.9px 0.2px rgba(33, 33, 33, 0.35);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 45px;
+    letter-spacing: 3.6px;
+    padding-left:40px;
+    text-decoration: none;
+    color: #212121;
+}
+.button-order-promo:hover{
+    background: #ffffff url("../img/arrow.svg") no-repeat 200px 16px;
+}
+.button-order-promo:active{
+    box-shadow: none;
+}
+.button-order:active{
+
+    box-shadow: none;
+}
+.trending-wrapper{
+    margin-top:660px; /* Очень долго тыкался, но так и не осознал, что тут происходит :C */
+    margin-bottom: 120px;
+}
+.trending-head{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #212121;
+    margin-top: 119px;
+    margin-left:98px;
+}
+.trending-images{
+    margin-left:98px;
+    margin-top:64px;
+}
+.trending-img{
+    width: 370px;
+    height: 370px;
+    padding:0 30px 30px 0;
+    display: inline-block;
+    }
+.explore-trending{
+    display:block;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: 3.6px;
+    color: #212121;
+    position: relative;
+    right:118px;
+    bottom:20px;
+    float:right;
+}
+.explore-trending::after{
+    content: url("../img/arrow.svg");
+    position: relative;
+    left:12px;
+}
+.slider{
+    height:800px;
+    background: url("../img/slider-2.jpg") no-repeat;
+
+}
+.slider-text-2 {
+    font-family: 'Montserrat', sans-serif;
+    margin-left:98px;
+    padding-top:287px;/* Здесь margin-top почему-то сломался, использовал паддинг */
+}
+.slider-text-top-2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.67;
+    letter-spacing: 1.8px;
+    text-align: left;
+    color: #e53935;
+}
+.promo-2{
+    margin-top: 120px;
+    margin-left: 98px;
+}
+.promo-2-big{
+    width: 570px;
+    height: 570px;
+    background: url("../img/promo-2/product-1-lg.jpg");
+    float:left;
+}
+.promo-2-small{
+    padding: 0 30px 26px 30px;
+}
+.mobile-app{
+    margin-top: 70px;
+    background: url("../img/back-img.jpg");
+    height: 516px;
+}
+.mobile-tag{
+    padding-top: 125px;
+    margin-left: 98px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.67;
+    letter-spacing: 1.8px;
+    text-align: left;
+    color: #6c6c6c;
+}
+.slogan{
+    margin-top: 22px;
+    margin-left: 98px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 62px;
+    font-weight: 100;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.16;
+    letter-spacing: normal;
+    text-align: left;
+    color: #212121;
+}
+.mobile-text{
+    margin-top: 26px;
+    margin-left: 98px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.09;
+    letter-spacing: normal;
+    text-align: left;
+    color: #6c6c6c;
+}
+.store-links{
+    margin-top: 33px;
+    margin-left: 98px;
+}
+.appstore-link{
+    display: block;
+    width: 135px;
+    height: 40px;
+    padding-right:10px;
+    float:left;
+}
+.gmail-link{
+    display: block;
+    width: 135px;
+    height: 40px;
+   }
+.footer{
+    height: 423px;   /* +39px */
+    background-color: #f7f7f7;
+}
+.contact{
+    margin-top: 120px;
+    margin-left: 98px;
+    float:left;
+}
+.navi-head{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: 1.8px;
+    text-align: left;
+    color: #6c6c6c;
+    margin-bottom:20px;
+}
+.contact-text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.57;
+    letter-spacing: normal;
+    text-align: left;
+    color: #212121;
+}
+.useful{
+    padding-top: 120px;
+    margin-left:81px;
+    float:left;
+    padding-right:79px;
+}
+.useful li{
+    list-style-type: none;
+}
+.useful-ul-1 li a, .useful-ul-2 li a{
+text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.86;
+    letter-spacing: 0.7px;
+    text-align: left;
+    color: #212121;
+}
+.useful li a:hover{
+    border-bottom: 3px solid #212121;
+}
+
+.useful-ul-1{
+    float:left;
+}
+.useful-ul-2{
+    margin-left: 240px;
+}
+.subscribe {
+    padding-top: 120px;
+}
+.contact-form{
+    margin-top:26px ;
+}
+.contact-mail {
+    width: 300px;
+    height: 48px;
+    background-color: #ffffff;
+    border: solid 1px #d9dee1;
+    border-right:0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.57;
+    letter-spacing: normal;
+    text-align: left;
+    color: #6c6c6c;
+    padding-left:19px;
+}
+.contact-mail:focus {
+    outline: none;
+}
+.submit-zone{
+    text-align:center;
+    line-height: 48px;
+    height: 48px;
+    width: 48px;
+    float:right;
+    position: relative;
+    right:7%;
+    background-color: #ffffff;
+    border: solid 1px #d9dee1;
+    border-left:0;
+}
+
+footer {
+    text-transform: uppercase;
+    margin-top:77px;
+    margin-left: 98px;
+}
+.copy{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.17;
+    letter-spacing: 0.6px;
+    text-align: left;
+    color: #6c6c6c;
+    float:left;
+    padding-right: 158px;
+}
+.social{
+    float:left;
+    height: 28px;
+    padding-right: 172px;
+}
+.social ul{
+    list-style-type: none;
+
+}
+.social ul li {
+    float:left;
+    margin-left:5px;
+
+}
+.social ul li a{
+    text-decoration: none;
+    display: block;
+}
+
+#facebook{
+    padding:0;
+    width:28px;
+    height:28px;
+    border-radius:14px;
+    background: url('../img/social-links-sprite.png') 0 0;
+
+}
+#facebook:hover{
+    background: #4267b2 url('../img/social-links-sprite.png') 0 0;
+}
+#twitter{
+    padding:0;
+    width:28px;
+    height:28px;
+    border-radius:14px;
+    background: url('../img/social-links-sprite.png') -34px 0;
+}
+#twitter:hover{
+    background: #1ca1f2 url('../img/social-links-sprite.png') -34px 0;
+}
+#google{
+    padding:0;
+    width:28px;
+    height:28px;
+    border-radius:14px;
+    background: url('../img/social-links-sprite.png') -67.4px 0;
+}
+#google:hover{
+    background: #d54133 url('../img/social-links-sprite.png') -67.4px 0;
+}
+#pinterest{
+    padding:0;
+    width:28px;
+    height:28px;
+    border-radius:14px;
+    background: url('../img/social-links-sprite.png') -101px 0;
+
+}
+#pinterest:hover{
+    background: #d01338 url('../img/social-links-sprite.png') -101px 0;
+}
+
+.conditions {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.17;
+    letter-spacing: 0.6px;
+    color: #6c6c6c;
+
+}
+
+.conditions a{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.17;
+    letter-spacing: 0.6px;
+    color: #6c6c6c;
+}
+.conditions a:visited{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.17;
+    letter-spacing: 0.6px;
+    color: #6c6c6c;
+}
+.conditions a:hover{
+    color:#212121;
+    -webkit-text-stroke: 0.5px #212121;  /* The only way i found to trick the text shift and save boldness of the hovered text*/
+    border-bottom: 2px solid #212121;
+}
+address{
+    font-style: normal;
+}
+
+
+/* CONTACT PAGE */
+.head{
+    min-height:360px;
+    background-color: #f5f5f5;
+}
+.title {
+    margin-top: 171px;
+    margin-left: 101px;
+    color: #212121;
+    font-family: 'Montserrat', sans-serif;
+    align-content: space-around;
+    font-size: 62px;
+    font-weight: 200;
+    line-height: 72px;
+}
+.contact-main{
+    height:493px;
+    padding-top: 71px;
+    padding-left: 68px;
+}
+.card{
+    text-align: center;
+    min-height: 370px;
+    width: 370px;
+    border: 1px solid #9c9c9c;
+    background-color: #ffffff;
+    opacity: 0.9;
+    float:left;
+    background: url("../img/contact/pin.png") no-repeat 166px 48px;
+    margin-left: 30px;
+}
+.card h2{
+    color: #212121;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 29.88px;
+    text-transform: uppercase;
+    margin-top: 130px;
+}
+.card h4{
+    color: #6c6c6c;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-top: 23px;
+    margin-top: 23px;
+}
+.card .card-bold{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color: #212121;
+}
+.card .card-light{
+    font-family: "Montserrat",sans-serif;
+    font-weight: 300;
+    color: #6c6c6c;
+}
+.footer-contact{
+    min-height:384px;
+    padding-bottom:30px;
+    background-color: #f7f7f7;
+}
+/* PRODUCT PAGE */
+.product-main{
+min-height:1965px;
+}
+.tab-controll-prod{
+    margin-top: 71px;
+    margin-left: 105px;
+}
+.controller-link-prod {
+    list-style-type: none;
+}
+.controller-link-prod a{
+    padding: 0 20px 2px 20px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #6c6c6c;
+    border-bottom: 1px solid #6c6c6c;
+    float:left;
+
+}
+.controller-link-prod a:hover {
+    color: #212121;
+    border-bottom: 3px solid #212121;
+    padding-bottom:0;
+}
+.clr{
+    clear: both;
+}
+.products-range{
+    margin-top: 50px;
+    margin-left: 68px;
+}
+.product-card{
+    min-height: 370px;
+    width: 370px;
+    background: #00bc87;
+    float:left;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+.pic-1{
+     background: url("../img/product/product-1.jpg");
+ }
+.pic-2{
+    background: url("../img/product/product-2.jpg");
+}
+.pic-3{
+    background: url("../img/product/product-3.jpg");
+}
+.pic-4{
+    background: url("../img/product/product-4.jpg");
+}
+.pic-5{
+    background: url("../img/product/product-5.jpg");
+}
+.pic-6{
+    background: url("../img/product/product-6.jpg");
+}
+.rotate{
+    width: 42px;
+    height: 29px;
+    margin-top: 41px;
+    margin-left: 604px;
+    background: url("../img/product/rotate.png") ;
+}
+.rotate a{
+    display:block;
+    text-decoration: none;
+}
+.rotate {
+    border-radius: 50%;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition:         transform .8s ease-in-out ;
+}
+.rotate:hover {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+.product-page-promo-wrapper{
+    margin-top:140px;
+}
+.details-header{
+    min-height: 119px;
+}
+.breadcrumps{
+    min-height: 71px;
+    background-color: #f4f4f4;
+}
+.crumps{
+list-style-type: none;
+    margin-left: 360px;
+}
+.crumps li{
+    float:left;
+    padding: 28px 15px 30px 15px;
+}
+.crumps .crump a{
+    color: #6c6c6c;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1.8px;
+}
+.crumps .crump a:hover{
+    color: #212121;
+    letter-spacing: 1.8px;
+}
+.crumps .crump-active a{
+    cursor: default;
+    color: #212121;
+    letter-spacing: 1.8px;
+}
+.details-main{
+    min-height:967px;
+}
+.details-images{
+    margin-top: 71px;
+    margin-left: 98px;
+    float:left;
+
+}
+.details-big-image{
+    width: 570px;
+    height: 570px;
+    background: url("../img/details/details1.jpg");
+}
+.mini-images{
+    margin-left: 140px;
+}
+.details-small-image-1{
+    width: 70px;
+    height: 70px;
+    background: url("../img/details/details2.jpg");
+    float:left;
+    margin-left: 10px;
+}
+.details-small-image-2{
+    width: 70px;
+    height: 70px;
+    background: url("../img/details/details3.jpg");
+    float:left;
+    margin-left: 10px;
+}
+.details-small-image-3{
+    width: 70px;
+    height: 70px;
+    background: url("../img/details/details1.jpg");
+    background-size: 70px 70px;
+    margin-left: 10px;
+    float: left;
+}
+.details-small-image-1:hover, .details-small-image-2:hover, .details-small-image-3:hover{
+    opacity: 0.3;
+    cursor: pointer;
+}
+.details-image-active{
+    opacity: 0.3;
+}
+.details-image-active:hover{
+    cursor: default;
+}
+
+.details-deal{
+float:right;
+    margin-top: 118px;
+    margin-right: 132px;
+}
+.details-deal h3{
+    text-align: center;
+    color: #212121;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+}
+.details-deal h4 {
+    text-align: center;
+    color: #e53935;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48.02px;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+}
+.price {
+    text-align: center;
+       color: #212121;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 48.02px;
+}
+.price .dollars{
+      font-size: 72px;
+}
+.button-order-details {
+    display: block;
+    margin-top: 31px;
+    margin-left: 56px;
+    width: 350px;
+    height: 71px;
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    border-radius: 35px;
+    background: #f44336;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 70px;
+    padding-left:160px;
+    text-transform: uppercase;
+    letter-spacing: 4.4px;
+    text-decoration: none;
+}
+
+.button-order-details:hover{
+    background: #f44336 url("../img/details/arrow.svg") no-repeat 333px 23px;
+}
+.button-order-details:active{
+    box-shadow:none;
+}
+.details-text  {
+    margin-top: 49px;
+    width: 500px;
+    color: #212121;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24.01px;
+
+    letter-spacing: 0.4px;
+}
+.related-wrapper{
+    margin-top:0;
+    margin-bottom: 120px;
+}
+.related-head{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #212121;
+    margin-top: 0;
+    margin-left:98px;
+}
+.footer-details{
+    min-height:384px;
+    padding-bottom:30px;
+    background-color: #f7f7f7;
+    margin-top:-30px;
+}
