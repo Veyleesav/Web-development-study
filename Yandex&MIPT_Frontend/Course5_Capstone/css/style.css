@@ -1,0 +1,55 @@
+
+.container{
+    padding: 0;
+    margin: 0 auto;
+    min-width: 99%;
+}
+*{
+    background: #cfd0cf;
+}
+.game-title{
+    text-align: center;
+    line-height: 47px;
+    font-family: Arial sans-serif;
+    font-size: 42px;
+    color: #434344;
+    margin: 40px 0;
+}
+.game-box{                  /* TODO: NEED TO CENTER IT */
+    text-align: center;
+    margin: 0 auto;
+}
+
+.card-row{
+    list-style-type: none;
+    text-align: center;
+}
+.card-row .card{
+float:left;
+    width:125px;
+    height: 125px;
+    margin: 0 12.5px 25px 12.5px;
+    border:5px solid #ffffff;
+    border-radius:9px;
+    -webkit-box-shadow: 1px 1px 5px 0 rgba(0,0,0,0.5);
+    -moz-box-shadow: 1px 1px 5px 0 rgba(0,0,0,0.5);
+    box-shadow: 1px 1px 5px 0 rgba(0,0,0,0.5);
+    background: rgba(34,171,146,1);
+    background: -moz-linear-gradient(45deg, rgba(34,171,146,1) 0%, rgba(25,102,141,1) 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(34,171,146,1)), color-stop(100%, rgba(25,102,141,1)));
+    background: -webkit-linear-gradient(45deg, rgba(34,171,146,1) 0%, rgba(25,102,141,1) 100%);
+    background: -o-linear-gradient(45deg, rgba(34,171,146,1) 0%, rgba(25,102,141,1) 100%);
+    background: -ms-linear-gradient(45deg, rgba(34,171,146,1) 0%, rgba(25,102,141,1) 100%);
+    background: linear-gradient(45deg, rgba(34,171,146,1) 0%, rgba(25,102,141,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#22ab92', endColorstr='#19668d', GradientType=1 );
+}
+.emoji{
+    font-size:75px;
+    text-align: center;
+    line-height: 140px;
+    background-color: transparent;
+    display: none;
+}
+.clr{
+    clear: both;
+}
