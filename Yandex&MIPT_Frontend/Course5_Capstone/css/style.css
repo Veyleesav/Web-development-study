@@ -15,9 +15,11 @@
     color: #434344;
     margin: 40px 0;
 }
-.game-box{                  /* TODO: NEED TO CENTER IT */
+.game-box{
+    /* TODO: NEED TO CENTER IT  UPD: DONE WITH WIDTH*/
     text-align: center;
     margin: 0 auto;
+    width:55%;
 }
 
 .card-row{
@@ -36,7 +38,6 @@ float:left;
     box-shadow: 1px 1px 5px 0 rgba(0,0,0,0.5);
     background: rgba(34,171,146,1);
     background: -moz-linear-gradient(45deg, rgba(34,171,146,1) 0%, rgba(25,102,141,1) 100%);
-    background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(34,171,146,1)), color-stop(100%, rgba(25,102,141,1)));
     background: -webkit-linear-gradient(45deg, rgba(34,171,146,1) 0%, rgba(25,102,141,1) 100%);
     background: -o-linear-gradient(45deg, rgba(34,171,146,1) 0%, rgba(25,102,141,1) 100%);
     background: -ms-linear-gradient(45deg, rgba(34,171,146,1) 0%, rgba(25,102,141,1) 100%);
