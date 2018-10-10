@@ -93,5 +93,14 @@ height: 145px;
     clear: both;
 }
 .right{
-    display:none;
+    background: #5fd573;
+    border:none;
+    border-radius: 9px;
+    pointer-events: none;
+}
+.wrong{
+    background: #f2453d;
+    border:none;
+    border-radius: 9px;
+    pointer-events: none;
 }
