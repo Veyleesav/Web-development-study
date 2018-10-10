@@ -94,13 +94,15 @@ height: 145px;
 }
 .right{
     background: #5fd573;
-    border:none;
+    border-color:#5fd573;
     border-radius: 9px;
     pointer-events: none;
+    transition: 0ms;
 }
 .wrong{
+    border-color: #f2453d;
     background: #f2453d;
-    border:none;
     border-radius: 9px;
     pointer-events: none;
+    transition: 0ms;
 }
