@@ -145,3 +145,6 @@ function restart() {
     var currentCardMain=0;
     var wrongCards=0;
 }
+
+//Modal
+

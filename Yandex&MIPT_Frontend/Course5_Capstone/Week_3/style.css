@@ -116,3 +116,65 @@ height: 145px;
     min-width: 628px;
     font-weight: 700;
 }
+
+/* MODAL */
+.modal{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+
+    /* Use this for centering if unknown width/height */
+    transform: translate(-50%, -50%);
+
+    min-width: 350px;
+    background: #ffffff;
+    text-align: center;
+    z-index: 1010;
+}
+.modal h2{
+    font-family: 'Arial', sans-serif;
+    margin-top: 30px;
+    font-size: 42px;
+    margin-bottom: 0;
+    color: #434344;
+}
+.modal button{
+    outline: none;
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background: rgba(34,171,146,1);
+    background: -moz-linear-gradient(45deg, rgb(25, 102, 141) 0%, rgb(34, 171, 146) 100%);
+    background: -webkit-linear-gradient(45deg, rgb(25, 102, 141) 0%, rgb(34, 171, 146) 100%);
+    background: -o-linear-gradient(45deg, rgb(25, 102, 141) 0%, rgb(34, 171, 146) 100%);
+    background: -ms-linear-gradient(45deg, rgb(25, 102, 141) 0%, rgb(34, 171, 146) 100%);
+    background: linear-gradient(45deg, rgb(25, 102, 141) 0%, rgb(34, 171, 146) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#22ab92', endColorstr='#19668d', GradientType=1 );
+    color: #ffffff;
+    padding-left: 30px;
+    padding-right: 30px;
+    -webkit-box-shadow: 1px 1px 1px 0 rgba(0,0,0,0.5);
+    -moz-box-shadow: 1px 1px 1px 0 rgba(0,0,0,0.5);
+    box-shadow: 1px 1px 1px 0 rgba(0,0,0,0.5);
+}
+.modal button:active{
+    -webkit-box-shadow: inset 2px 1px 8px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 2px 1px 8px 0px rgba(0,0,0,0.75);
+    box-shadow: inset 2px 1px 8px 0px rgba(0,0,0,0.75);
+}
+.modal-overlay{
+position: absolute;
+    top:0;
+    left:0;
+    z-index: 1000;
+    width: 100%;
+    height: 100%;
+   background: rgba(1,1,1,0.5);
+}
+.closed{
+    display: none;
+}
