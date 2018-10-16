@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
 </head>
-<body onload="shuffleCards()">
+<body onload="shuffleCards(), animate()">
 <div class="container">
     <header><h1 class="header">Memoji</h1></header>
     <div class="game-box">
@@ -148,7 +148,7 @@
 </div>
 
 <div class="modal" id="modal">
-    <h2>Win</h2>
+    <h2 id="moving-letters">Win</h2>
     <button class="play-again" id="close-button">Play again</button>
 </div>
 <div class="modal-overlay" id="modal-overlay"></div>

@@ -148,3 +148,13 @@ function restart() {
 
 //Modal
 
+// Wrap every letter in a span
+function animate() {
+    function wrapChars(str, tmpl) {                               //replacement with regexp
+        return str.replace(/\w/g, tmpl || "<span>$&</span>");
+    }
+    let word=document.getElementById('moving-letters');
+    console.log(word.innerHTML);
+    word.innerHTML=wrapChars(word.innerHTML);
+    console.log(word.innerHTML);
+}
