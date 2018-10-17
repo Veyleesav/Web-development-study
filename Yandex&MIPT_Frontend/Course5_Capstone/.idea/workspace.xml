@@ -14,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Week_3/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="108" column="1" lean-forward="true" selection-start-line="108" selection-start-column="1" selection-end-line="108" selection-end-column="1" />
+            <state relative-caret-position="58">
+              <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
             </state>
           </provider>
         </entry>
@@ -26,17 +26,17 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Week_3/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
+            <state relative-caret-position="745">
               <caret line="150" column="30" selection-start-line="150" selection-start-column="30" selection-end-line="150" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Week_3/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="813">
-              <caret line="212" column="82" selection-start-line="212" selection-start-column="82" selection-end-line="212" selection-end-column="82" />
+            <state relative-caret-position="423">
+              <caret line="278" column="1" selection-start-line="278" selection-start-column="1" selection-end-line="278" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -52,6 +52,7 @@
       <find>console.log</find>
       <find>winCheck()</find>
       <find>lose</find>
+      <find>button</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -61,9 +62,9 @@
         <option value="$PROJECT_DIR$/Week_2/style.css" />
         <option value="$PROJECT_DIR$/Weel_3/index.html" />
         <option value="$PROJECT_DIR$/Weel_3/style.css" />
-        <option value="$PROJECT_DIR$/Week_3/style.css" />
         <option value="$PROJECT_DIR$/Week_3/index.html" />
         <option value="$PROJECT_DIR$/Week_3/script.js" />
+        <option value="$PROJECT_DIR$/Week_3/style.css" />
       </list>
     </option>
   </component>
@@ -146,16 +147,15 @@
       <workItem from="1539367010103" duration="6152000" />
       <workItem from="1539507835043" duration="11745000" />
       <workItem from="1539700282901" duration="1852000" />
-      <workItem from="1539789249748" duration="4898000" />
+      <workItem from="1539789249748" duration="5089000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38093000" />
+    <option name="totallyTimeSpent" value="38284000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="121" y="133" width="1431" height="806" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24946997" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -384,24 +384,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Weel_3/index.html" />
     <entry file="file://$PROJECT_DIR$/Weel_3/style.css" />
-    <entry file="file://$PROJECT_DIR$/Week_3/style.css">
+    <entry file="file://$PROJECT_DIR$/Week_3/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="813">
-          <caret line="212" column="82" selection-start-line="212" selection-start-column="82" selection-end-line="212" selection-end-column="82" />
+        <state relative-caret-position="58">
+          <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Week_3/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
+        <state relative-caret-position="745">
           <caret line="150" column="30" selection-start-line="150" selection-start-column="30" selection-end-line="150" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week_3/script.js">
+    <entry file="file://$PROJECT_DIR$/Week_3/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="108" column="1" lean-forward="true" selection-start-line="108" selection-start-column="1" selection-end-line="108" selection-end-column="1" />
+        <state relative-caret-position="423">
+          <caret line="278" column="1" selection-start-line="278" selection-start-column="1" selection-end-line="278" selection-end-column="1" />
         </state>
       </provider>
     </entry>
