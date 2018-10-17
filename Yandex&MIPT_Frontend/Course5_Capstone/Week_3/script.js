@@ -93,10 +93,22 @@ function startTimer() {
     isCounting=true;
     var downloadTimer = setInterval(function(){
         timeleft--;
-        document.getElementById("countdowntimer").textContent = '00:'+timeleft;
+        let seconds='0'+timeleft;
+        if (timeleft>9){
+            document.getElementById("countdowntimer").textContent = '00:'+timeleft;
+        }
+        else{
+            document.getElementById("countdowntimer").textContent = '00:'+seconds;
+        }
+
         if(timeleft <= 0 || isCounting!==true){
             clearInterval(downloadTimer);
-            document.getElementById("countdowntimer").textContent = '00:'+timeleft;
+            if (timeleft>9){
+                document.getElementById("countdowntimer").textContent = '00:'+timeleft;
+            }
+            else{
+                document.getElementById("countdowntimer").textContent = '00:'+seconds;
+            }
         }
         if (timeleft<=0){
             gameStop();
