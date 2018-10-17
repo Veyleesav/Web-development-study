@@ -72,28 +72,31 @@ function flip(event){
         }
     }
 };
+function shuffle(){
+    let cardArray=['card-1','card-2','card-3','card-4','card-5','card-6','card-7','card-8','card-9','card-10','card-11','card-12'];
+    let emojiArray=['🐰','🐻','🦁','🐷','🐸','🦄','🐰','🐻','🦁','🐷','🐸','🦄'];
+    let shuffleCards = function() {
+        while (emojiArray.length>0){
+            let cardId = Math.round(Math.random() * (cardArray.length - 1));
+            let card=cardArray[cardId];
+            let emojiId = Math.round(Math.random() * (emojiArray.length - 1));
+            document.getElementById(card).innerHTML = emojiArray[emojiId];
+            document.getElementById(card).setAttribute('data-value',emojiArray[emojiId]);
+            emojiArray.splice(emojiId, 1);
+            cardArray.splice(cardId, 1);
+            console.log(emojiArray);
+        }
+    };
+    shuffleCards();
+}
 
-var cardArray=['card-1','card-2','card-3','card-4','card-5','card-6','card-7','card-8','card-9','card-10','card-11','card-12'];
-var emojiArray=['🐰','🐻','🦁','🐷','🐸','🦄','🐰','🐻','🦁','🐷','🐸','🦄'];
-var shuffleCards = function() {
-    while (emojiArray.length>0){
-        let cardId = Math.round(Math.random() * (cardArray.length - 1));
-        let card=cardArray[cardId];
-        let emojiId = Math.round(Math.random() * (emojiArray.length - 1));
-        document.getElementById(card).innerHTML = emojiArray[emojiId];
-        document.getElementById(card).setAttribute('data-value',emojiArray[emojiId]);
-        emojiArray.splice(emojiId, 1);
-        cardArray.splice(cardId, 1);
-        console.log(emojiArray);
-    }
-};
 //timer
 var timeleft = 60;
 var isCounting=true;
 function timer() {
-if (timeleft===60){
-    startTimer();
-}
+    if (timeleft===60){
+        startTimer();
+    }
 
 }
 function startTimer() {
@@ -104,6 +107,7 @@ function startTimer() {
         if(timeleft <= 0 || isCounting!==true){
             clearInterval(downloadTimer);
             document.getElementById("countdowntimer").textContent = '00:'+timeleft;
+            gameStop();
         }
 
     },1000);
@@ -117,19 +121,19 @@ function resetTimer() {
 }
 
 function flipCardsDown() {
-   var cardsFlipped=document.getElementsByClassName('thecard');
+    var cardsFlipped=document.getElementsByClassName('thecard');
     let wrongCards=document.getElementsByClassName('wrong');
     let rightCards=document.getElementsByClassName('right');
-   for (let i=0; i<cardsFlipped.length;i++)
-    if(cardsFlipped[i].style.transform == "rotateY(180deg)") {
-        cardsFlipped[i].style.transform = "rotateY(0deg)";
-        console.log(cardFlipped);
-    }
-        while (wrongCards.length>0){  //removing 'wrong' classes
-            wrongCards[0].classList.remove('wrong');
-            console.log('KEKS: '+ wrongCards.length)
-
+    for (let i=0; i<cardsFlipped.length;i++)
+        if(cardsFlipped[i].style.transform == "rotateY(180deg)") {
+            cardsFlipped[i].style.transform = "rotateY(0deg)";
+            console.log(cardFlipped);
         }
+    while (wrongCards.length>0){  //removing 'wrong' classes
+        wrongCards[0].classList.remove('wrong');
+        console.log('KEKS: '+ wrongCards.length)
+
+    }
     while (rightCards.length>0){  //removing 'right' classes
         rightCards[0].classList.remove('right');
         console.log('PEKS: '+ rightCards.length)
@@ -139,11 +143,15 @@ function restart() {
     flipCardsDown();
     stopTimer();
     setTimeout(resetTimer(), 1000);//TODO: MAKE IT STABLE, DOESN`T ALWAYS GET IN TIME TO STOP COUNTING
+    shuffle();
     var cardFlipped=0;
     var currentEmoji='';
     var currentCard=0;
     var currentCardMain=0;
     var wrongCards=0;
+    document.getElementById('modal').classList+=' closed';
+    document.getElementById('modal-overlay').classList+=' closed';
+    console.log('THE GAME RESTARTED.');
 }
 
 //Modal
@@ -157,4 +165,22 @@ function animate() {
     console.log(word.innerHTML);
     word.innerHTML=wrapChars(word.innerHTML);
     console.log(word.innerHTML);
+}
+
+//checking if the player won
+var hasWon=false;
+function winCheck() {
+    if (document.getElementsByClassName('right').length>=24) {
+        document.getElementById('moving-letters').innerHTML='Win';
+        animate();
+        document.getElementById('modal').classList.remove('closed');
+        document.getElementById('modal-overlay').classList.remove('closed');
+        stopTimer();
+    }
+}
+function gameStop() {
+    document.getElementById('moving-letters').innerHTML='Lose';
+    animate();
+    document.getElementById('modal').classList.remove('closed');
+    document.getElementById('modal-overlay').classList.remove('closed');
 }

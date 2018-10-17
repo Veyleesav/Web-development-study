@@ -6,13 +6,13 @@
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
 </head>
-<body onload="shuffleCards(), animate()">
+<body onload="shuffle()">
 <div class="container">
     <header><h1 class="header">Memoji</h1></header>
     <div class="game-box">
         <div class="maincontainer">
 
-            <div class="thecard" onclick="flip(event),timer()">
+            <div class="thecard" onclick="flip(event),timer(),winCheck()">
 
                 <div class="thefront"></div>
 
@@ -22,7 +22,7 @@
         </div>
         <div class="maincontainer">
 
-            <div class="thecard" onclick="flip(event),timer()">
+            <div class="thecard" onclick="flip(event),timer(),winCheck()">
 
                 <div class="thefront"></div>
 
@@ -33,7 +33,7 @@
 
         <div class="maincontainer">
 
-            <div class="thecard" onclick="flip(event),timer()">
+            <div class="thecard" onclick="flip(event),timer(),winCheck()">
 
                 <div class="thefront"></div>
 
@@ -43,7 +43,7 @@
         </div>
         <div class="maincontainer">
 
-            <div class="thecard" onclick="flip(event),timer()">
+            <div class="thecard" onclick="flip(event),timer(),winCheck()">
 
                 <div class="thefront"></div>
 
@@ -57,7 +57,7 @@
     <div class="game-box">
         <div class="maincontainer">
 
-            <div class="thecard" onclick="flip(event),timer()">
+            <div class="thecard" onclick="flip(event),timer(),winCheck()">
 
                 <div class="thefront"></div>
 
@@ -67,7 +67,7 @@
         </div>
         <div class="maincontainer">
 
-            <div class="thecard" onclick="flip(event),timer()">
+            <div class="thecard" onclick="flip(event),timer(),winCheck()">
 
                 <div class="thefront"></div>
 
@@ -78,7 +78,7 @@
 
         <div class="maincontainer">
 
-            <div class="thecard" onclick="flip(event),timer()">
+            <div class="thecard" onclick="flip(event),timer(),winCheck()">
 
                 <div class="thefront"></div>
 
@@ -88,7 +88,7 @@
         </div>
         <div class="maincontainer">
 
-            <div class="thecard" onclick="flip(event),timer()">
+            <div class="thecard" onclick="flip(event),timer(),winCheck()">
 
                 <div class="thefront"></div>
 
@@ -102,7 +102,7 @@
     <div class="game-box">
         <div class="maincontainer">
 
-            <div class="thecard" onclick="flip(event),timer()">
+            <div class="thecard" onclick="flip(event),timer(),winCheck()">
 
                 <div class="thefront"></div>
 
@@ -112,7 +112,7 @@
         </div>
         <div class="maincontainer">
 
-            <div class="thecard" onclick="flip(event),timer()">
+            <div class="thecard" onclick="flip(event),timer(),winCheck()">
 
                 <div class="thefront"></div>
 
@@ -123,7 +123,7 @@
 
         <div class="maincontainer">
 
-            <div class="thecard" onclick="flip(event),timer()">
+            <div class="thecard" onclick="flip(event),timer(),winCheck()">
 
                 <div class="thefront"></div>
 
@@ -133,7 +133,7 @@
         </div>
         <div class="maincontainer">
 
-            <div class="thecard" onclick="flip(event),timer()">
+            <div class="thecard" onclick="flip(event),timer(),winCheck()">
 
                 <div class="thefront"></div>
 
@@ -143,13 +143,13 @@
         </div>
 
     </div>
-    <div class="timer" id="timer"><span id="countdowntimer" onclick="restart()">01:00</span></div>
+    <div class="timer" id="timer"><span id="countdowntimer">01:00</span></div>
 
 </div>
 
 <div class="modal" id="modal">
-    <h2 id="moving-letters">Win</h2>
-    <button class="play-again" id="close-button">Play again</button>
+    <h2 id="moving-letters">Lose</h2>
+    <button class="play-again" id="close-button" onclick="restart()">Play again</button>
 </div>
 <div class="modal-overlay" id="modal-overlay"></div>
 
