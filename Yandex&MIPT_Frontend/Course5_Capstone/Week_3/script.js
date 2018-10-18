@@ -65,7 +65,7 @@ function flip(event){
 }
 function shuffle(){
     let cardArray=['card-1','card-2','card-3','card-4','card-5','card-6','card-7','card-8','card-9','card-10','card-11','card-12'];
-    let emojiArray=['🐰','🐻','🦁','🐷','🐸','🦄','🐰','🐻','🦁','🐷','🐸','🦄'];
+    let emojiArray=[String.fromCodePoint(128048),String.fromCodePoint(128059),String.fromCodePoint(128054),String.fromCodePoint(128055),String.fromCodePoint(128056),String.fromCodePoint(128049),String.fromCodePoint(128048),String.fromCodePoint(128059),String.fromCodePoint(128054),String.fromCodePoint(128055),String.fromCodePoint(128056),String.fromCodePoint(128049)];
     let shuffleCards = function() {
         while (emojiArray.length>0){
             let cardId = Math.round(Math.random() * (cardArray.length - 1));
@@ -181,4 +181,11 @@ function gameStop() {
     animate();
     document.getElementById('modal').classList.remove('closed');
     document.getElementById('modal-overlay').classList.remove('closed');
+}
+
+//to collect events on button in one function
+function buttonPress(){
+    flip(event);
+    timer();
+    winCheck();
 }
