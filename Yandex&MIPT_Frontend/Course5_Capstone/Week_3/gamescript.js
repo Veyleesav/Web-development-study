@@ -1,11 +1,11 @@
-let cardFlipped=0;
-let currentEmoji='';
-let currentCard=0;
-let currentCardMain=0;
-let wrongCards=0;
+var cardFlipped=0;
+var currentEmoji='';
+var currentCard=0;
+var currentCardMain=0;
+var wrongCards=0;
 //flip logic
 function flip(event){
-    let element = event.currentTarget;
+    var element = event.currentTarget;
     if (element.className === "game_box__maincontainer__card") {
         if (document.getElementsByClassName('wrong').length>0){
             wrongCards=document.getElementsByClassName('wrong');
@@ -33,12 +33,12 @@ function flip(event){
             element.style.transform = "rotateY(180deg)";
             ++cardFlipped;
             if (currentEmoji.length<1){
-                currentEmoji=element.children[1].lastChild.lastChild.id; //Saving the id of this card to currentEmoji variable
+                currentEmoji=element.children[1].firstChild.firstChild.id; //Saving the id of this card to currentEmoji variable
                 currentCardMain=element;
                 currentCard=element.children[1];
             }
             else {
-                if (element.children[1].lastChild.lastChild.dataset.value===document.getElementById(currentEmoji).dataset.value){ //in case if cards are equal
+                if (element.children[1].firstChild.firstChild.dataset.value===document.getElementById(currentEmoji).dataset.value){ //in case if cards are equal
                     element.children[1].className+=' right';
                     element.className+=' right';
                     currentCard.className+=' right';
@@ -93,32 +93,32 @@ function timer() {
 }
 function startTimer() {
     if (!isCounting){
-    isCounting=true;
-    let downloadTimer = setInterval(function(){
-        timeleft--;
-        let seconds='0'+timeleft;
-        if (timeleft>9){
-            document.getElementById("countdowntimer").textContent = '00:'+timeleft;
-        }
-        else{
-            document.getElementById("countdowntimer").textContent = '00:'+seconds;
-        }
-
-        if(timeleft <= 0 || isCounting!==true){
-            clearInterval(downloadTimer);
+        isCounting=true;
+        let downloadTimer = setInterval(function(){
+            timeleft--;
+            let seconds='0'+timeleft;
             if (timeleft>9){
                 document.getElementById("countdowntimer").textContent = '00:'+timeleft;
             }
             else{
                 document.getElementById("countdowntimer").textContent = '00:'+seconds;
             }
-        }
-        if (timeleft<=0){
-            gameStop();
-        }
 
-    },1000);
-}
+            if(timeleft <= 0 || isCounting!==true){
+                clearInterval(downloadTimer);
+                if (timeleft>9){
+                    document.getElementById("countdowntimer").textContent = '00:'+timeleft;
+                }
+                else{
+                    document.getElementById("countdowntimer").textContent = '00:'+seconds;
+                }
+            }
+            if (timeleft<=0){
+                gameStop();
+            }
+
+        },1000);
+    }
 }
 function stopTimer() {
     isCounting=false;
@@ -149,9 +149,9 @@ function restart() {
     stopTimer();
     setTimeout(resetTimer(), 1000);
     shuffle();
-     timeleft = 60;
+    timeleft = 60;
     cardFlipped=0;
-   currentEmoji='';
+    currentEmoji='';
     currentCard=0;
     currentCardMain=0;
     wrongCards=0;
