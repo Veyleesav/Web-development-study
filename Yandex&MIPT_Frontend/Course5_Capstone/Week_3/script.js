@@ -1,15 +1,16 @@
-var cardFlipped=0;
-var currentEmoji='';
-var currentCard=0;
-var currentCardMain=0;
-var wrongCards=0;
+let cardFlipped=0;
+let currentEmoji='';
+let currentCard=0;
+let currentCardMain=0;
+let wrongCards=0;
+//flip logic
 function flip(event){
     let element = event.currentTarget;
-    if (element.className === "thecard") {
+    if (element.className === "game_box__maincontainer__card") {
         if (document.getElementsByClassName('wrong').length>0){
             wrongCards=document.getElementsByClassName('wrong');
             for (let i=0; i<wrongCards.length;i++){             //to reset wrong cards after click
-                if (wrongCards[i].style.transform == "rotateY(180deg)"){
+                if (wrongCards[i].style.transform === "rotateY(180deg)"){
                     wrongCards[i].style.transform = "rotateY(0deg)";
                 }
 
@@ -21,7 +22,7 @@ function flip(event){
 
             wrongCards=0;
         }
-        if(element.style.transform == "rotateY(180deg)") {
+        if(element.style.transform === "rotateY(180deg)") {
             element.style.transform = "rotateY(0deg)";
             currentEmoji='';
             currentCardMain=0;
@@ -63,6 +64,7 @@ function flip(event){
         }
     }
 }
+//cards shuffling
 function shuffle(){
     let cardArray=['card-1','card-2','card-3','card-4','card-5','card-6','card-7','card-8','card-9','card-10','card-11','card-12'];
     let emojiArray=[String.fromCodePoint(128048),String.fromCodePoint(128059),String.fromCodePoint(128054),String.fromCodePoint(128055),String.fromCodePoint(128056),String.fromCodePoint(128049),String.fromCodePoint(128048),String.fromCodePoint(128059),String.fromCodePoint(128054),String.fromCodePoint(128055),String.fromCodePoint(128056),String.fromCodePoint(128049)];
@@ -81,8 +83,8 @@ function shuffle(){
 }
 
 //timer
-var timeleft = 60;
-var isCounting=true;
+let timeleft = 60;
+let isCounting=false;
 function timer() {
     if (timeleft===60){
         startTimer();
@@ -90,8 +92,9 @@ function timer() {
 
 }
 function startTimer() {
+    if (!isCounting){
     isCounting=true;
-    var downloadTimer = setInterval(function(){
+    let downloadTimer = setInterval(function(){
         timeleft--;
         let seconds='0'+timeleft;
         if (timeleft>9){
@@ -116,6 +119,7 @@ function startTimer() {
 
     },1000);
 }
+}
 function stopTimer() {
     isCounting=false;
 }
@@ -125,11 +129,11 @@ function resetTimer() {
 }
 
 function flipCardsDown() {
-    var cardsFlipped=document.getElementsByClassName('thecard');
+    let cardsFlipped=document.getElementsByClassName('game_box__maincontainer__card');
     let wrongCards=document.getElementsByClassName('wrong');
     let rightCards=document.getElementsByClassName('right');
     for (let i=0; i<cardsFlipped.length;i++)
-        if(cardsFlipped[i].style.transform == "rotateY(180deg)") {
+        if(cardsFlipped[i].style.transform === "rotateY(180deg)") {
             cardsFlipped[i].style.transform = "rotateY(0deg)";
         }
     while (wrongCards.length>0){  //removing 'wrong' classes
@@ -151,8 +155,8 @@ function restart() {
     currentCard=0;
     currentCardMain=0;
     wrongCards=0;
-    document.getElementById('modal').classList+=' closed';
-    document.getElementById('modal-overlay').classList+=' closed';
+    document.getElementById('modal').className+=' closed';
+    document.getElementById('modal_overlay').className+=' closed';
 }
 
 //Modal
@@ -162,25 +166,25 @@ function animate() {
     function wrapChars(str, tmpl) {                               //replacement with regexp
         return str.replace(/\w/g, tmpl || "<span>$&</span>");
     }
-    let word=document.getElementById('moving-letters');
+    let word=document.getElementById('modal__header');
     word.innerHTML=wrapChars(word.innerHTML);
 }
 
 //checking if the player won
 function winCheck() {
     if (document.getElementsByClassName('right').length>23) {
-        document.getElementById('moving-letters').innerHTML='Win';
+        document.getElementById('modal__header').innerHTML='Win';
         animate();
         document.getElementById('modal').classList.remove('closed');
-        document.getElementById('modal-overlay').classList.remove('closed');
+        document.getElementById('modal_overlay').classList.remove('closed');
         stopTimer();
     }
 }
 function gameStop() {
-    document.getElementById('moving-letters').innerHTML='Lose';
+    document.getElementById('modal__header').innerHTML='Lose';
     animate();
     document.getElementById('modal').classList.remove('closed');
-    document.getElementById('modal-overlay').classList.remove('closed');
+    document.getElementById('modal_overlay').classList.remove('closed');
 }
 
 //to collect events on button in one function
@@ -188,4 +192,18 @@ function buttonPress(){
     flip(event);
     timer();
     winCheck();
+    disableBtns();
 }
+
+//to prevent multiple clicking on cards and breaking the timer
+function disableBtns() {
+    let disabledElement = event.currentTarget;
+    disabledElement.classList+=' disabled';
+    let timer = setInterval(function(){enableBtns()},300);
+
+    function enableBtns(){
+        disabledElement.classList.remove('disabled');
+        clearInterval(timer);
+    }
+}
+

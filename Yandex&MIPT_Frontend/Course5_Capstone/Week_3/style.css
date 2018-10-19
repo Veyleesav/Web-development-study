@@ -1,11 +1,13 @@
-body{
+body {
     background: #cfd0cf;
 }
-.container{
+
+.container {
     padding: 0;
     margin: 0 auto;
 }
-.header{
+
+.header {
     text-align: center;
     line-height: 47px;
     font-family: 'Arial', sans-serif;
@@ -15,16 +17,17 @@ body{
     min-width: 628px;
 }
 
-.game-box{
-    width:595px;
+.game_box {
+    width: 595px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     margin: 0 auto;
     height: 145px;
 }
+
 /* THE MAINCONTAINER HOLDS EVERYTHING */
-.maincontainer{
+.game_box__maincontainer {
     padding: 0;
     margin: 0 12.5px;
     -webkit-perspective: 600px;
@@ -36,7 +39,7 @@ body{
 }
 
 /* THE CARD HOLDS THE FRONT AND BACK FACES */
-.thecard{
+.game_box__maincontainer__card {
     cursor: pointer;
     position: relative;
     top: 0;
@@ -48,15 +51,15 @@ body{
     -webkit-transition: all 0.6s ease;
     -o-transition: all 0.6s ease;
     transition: all 0.6s ease;
-    border:5px solid #ffffff;
-    border-radius:9px;
-    -webkit-box-shadow: 1px 1px 5px 0 rgba(0,0,0,0.5);
-    box-shadow: 1px 1px 5px 0 rgba(0,0,0,0.5);
+    border: 5px solid #ffffff;
+    border-radius: 9px;
+    -webkit-box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.5);
 
 }
 
 /* THE FRONT FACE OF THE CARD, WHICH SHOWS BY DEFAULT */
-.thefront{
+.game_box__maincontainer__card__front {
     position: absolute;
     top: 0;
     left: 0;
@@ -66,15 +69,15 @@ body{
     backface-visibility: hidden;
     overflow: hidden;
     border-radius: 5px;
-    background: rgba(34,171,146,1);
-    background: -webkit-linear-gradient(45deg, rgba(34,171,146,1) 0%, rgba(25,102,141,1) 100%);
-    background: -o-linear-gradient(45deg, rgba(34,171,146,1) 0%, rgba(25,102,141,1) 100%);
-    background: linear-gradient(45deg, rgba(34,171,146,1) 0%, rgba(25,102,141,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#22ab92', endColorstr='#19668d', GradientType=1 );
+    background: rgba(34, 171, 146, 1);
+    background: -webkit-linear-gradient(45deg, rgba(34, 171, 146, 1) 0%, rgba(25, 102, 141, 1) 100%);
+    background: -o-linear-gradient(45deg, rgba(34, 171, 146, 1) 0%, rgba(25, 102, 141, 1) 100%);
+    background: linear-gradient(45deg, rgba(34, 171, 146, 1) 0%, rgba(25, 102, 141, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#22ab92', endColorstr='#19668d', GradientType=1);
 }
 
 /* THE BACK FACE OF THE CARD, WHICH SHOWS ON MOUSEOVER */
-.theback{
+.game_box__maincontainer__card__back {
     position: absolute;
     top: 0;
     left: 0;
@@ -90,24 +93,27 @@ body{
     transform: rotateY(180deg);
 }
 
-.emoji{
-    font-size:75px;
+.emoji {
+    font-size: 75px;
     line-height: 100px;
     cursor: pointer;
 }
+
 .clr {
     clear: both;
 }
-.right{
+
+.right {
     background: #5fd573;
-    border-color:#5fd573;
+    border-color: #5fd573;
     border-radius: 9px;
     pointer-events: none;
     -webkit-transition: 0ms;
     -o-transition: 0ms;
     transition: 0ms;
 }
-.wrong{
+
+.wrong {
     border-color: #f2453d;
     background: #f2453d;
     border-radius: 9px;
@@ -116,7 +122,8 @@ body{
     -o-transition: 0ms;
     transition: 0ms;
 }
-.timer{
+
+.timer {
     text-align: center;
     line-height: 36px;
     font-family: 'Arial', sans-serif;
@@ -128,7 +135,7 @@ body{
 }
 
 /* MODAL */
-.modal{
+.modal {
     position: fixed;
     left: 50%;
     top: 50%;
@@ -143,14 +150,16 @@ body{
     text-align: center;
     z-index: 1010;
 }
-.modal h2{
+
+.modal h2 {
     font-family: 'Arial', sans-serif;
     margin-top: 30px;
     font-size: 42px;
     margin-bottom: 0;
     color: #434344;
 }
-.modal button{
+
+.modal button {
     outline: none;
     font-family: 'Arial', sans-serif;
     font-size: 20px;
@@ -159,35 +168,39 @@ body{
     height: 40px;
     border-radius: 5px;
     border: none;
-    background: rgba(34,171,146,1);
+    background: rgba(34, 171, 146, 1);
     background: -webkit-linear-gradient(45deg, rgb(25, 102, 141) 0%, rgb(34, 171, 146) 100%);
     background: -o-linear-gradient(45deg, rgb(25, 102, 141) 0%, rgb(34, 171, 146) 100%);
     background: linear-gradient(45deg, rgb(25, 102, 141) 0%, rgb(34, 171, 146) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#22ab92', endColorstr='#19668d', GradientType=1 );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#22ab92', endColorstr='#19668d', GradientType=1);
     color: #ffffff;
     padding-left: 30px;
     padding-right: 30px;
-    -webkit-box-shadow: 1px 1px 1px 0 rgba(0,0,0,0.5);
-    box-shadow: 1px 1px 1px 0 rgba(0,0,0,0.5);
+    -webkit-box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.5);
     cursor: pointer;
 }
-.modal button:active{
-    -webkit-box-shadow: inset 2px 1px 8px 0px rgba(0,0,0,0.75);
-    box-shadow: inset 2px 1px 8px 0px rgba(0,0,0,0.75);
+
+.modal button:active {
+    -webkit-box-shadow: inset 2px 1px 8px 0 rgba(0, 0, 0, 0.75);
+    box-shadow: inset 2px 1px 8px 0 rgba(0, 0, 0, 0.75);
 }
-.modal-overlay{
+
+.modal_overlay {
     position: absolute;
-    top:0;
-    left:0;
+    top: 0;
+    left: 0;
     z-index: 1000;
     width: 100%;
     height: 100%;
-    background: rgba(1,1,1,0.5);
+    background: rgba(1, 1, 1, 0.5);
 }
-.closed{
+
+.closed {
     display: none;
 }
-.modal h2 span:first-of-type{   /* STYLES FOR ANIMATION */
+
+.modal h2 span:first-of-type { /* STYLES FOR ANIMATION */
     display: inline-block;
     -webkit-animation-duration: 1000ms;
     animation-duration: 1000ms;
@@ -200,7 +213,8 @@ body{
     -webkit-animation-timing-function: ease-in-out;
     animation-timing-function: ease-in-out;
 }
-.modal h2 span:nth-of-type(2){
+
+.modal h2 span:nth-of-type(2) {
     display: inline-block;
     -webkit-animation-duration: 1000ms;
     animation-duration: 1000ms;
@@ -213,7 +227,8 @@ body{
     -webkit-animation-timing-function: ease;
     animation-timing-function: ease;
 }
-.modal h2 span:nth-of-type(3){
+
+.modal h2 span:nth-of-type(3) {
     display: inline-block;
     -webkit-animation-duration: 1000ms;
     animation-duration: 1000ms;
@@ -226,7 +241,8 @@ body{
     -webkit-animation-timing-function: ease;
     animation-timing-function: ease;
 }
-.modal h2 span:nth-of-type(4){
+
+.modal h2 span:nth-of-type(4) {
     display: inline-block;
     -webkit-animation-duration: 1000ms;
     animation-duration: 1000ms;
@@ -239,7 +255,8 @@ body{
     -webkit-animation-timing-function: ease;
     animation-timing-function: ease;
 }
-@-webkit-keyframes bounce {                 /* animation of letters in the modal window */
+
+@-webkit-keyframes bounce { /* animation of letters in the modal window */
     0% {
         -webkit-transform: scaleY(1) translateY(0);
         transform: scaleY(1) translateY(0);
@@ -249,16 +266,17 @@ body{
         -webkit-transform: scaleY(1.5) translateY(-8px);
         transform: scaleY(1.5) translateY(-8px);
     }
-    66%{
+    66% {
         -webkit-transform: scaleY(0.9) translateY(1px);
         transform: scaleY(0.9) translateY(1px);
     }
-    100%{
+    100% {
         -webkit-transform: scaleY(1) translateY(0);
         transform: scaleY(1) translateY(0);
     }
 }
-@keyframes bounce {                 /* animation of letters in the modal window */
+
+@keyframes bounce { /* animation of letters in the modal window */
     0% {
         -webkit-transform: scaleY(1) translateY(0);
         transform: scaleY(1) translateY(0);
@@ -268,12 +286,17 @@ body{
         -webkit-transform: scaleY(1.5) translateY(-8px);
         transform: scaleY(1.5) translateY(-8px);
     }
-    66%{
+    66% {
         -webkit-transform: scaleY(0.9) translateY(1px);
         transform: scaleY(0.9) translateY(1px);
     }
-    100%{
+    100% {
         -webkit-transform: scaleY(1) translateY(0);
         transform: scaleY(1) translateY(0);
     }
+}
+
+/* for disabling cards for a second */
+.disabled {
+    pointer-events: none;
 }
