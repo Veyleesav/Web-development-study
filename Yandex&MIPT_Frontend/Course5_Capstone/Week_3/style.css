@@ -108,9 +108,7 @@ body {
     border-color: #5fd573;
     border-radius: 9px;
     pointer-events: none;
-    -webkit-transition: 0ms;
-    -o-transition: 0ms;
-    transition: 0ms;
+
 }
 
 .wrong {
@@ -118,9 +116,6 @@ body {
     background: #f2453d;
     border-radius: 9px;
     pointer-events: none;
-    -webkit-transition: 0ms;
-    -o-transition: 0ms;
-    transition: 0ms;
 }
 
 .timer {
